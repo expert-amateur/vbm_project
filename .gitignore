@@ -1,2 +1,9 @@
 # VSCode hidden files
 .vscode
+
+# ROS logs
+/log/*
+
+
+# Numpy files
+*.npy
