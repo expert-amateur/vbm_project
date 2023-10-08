@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/neha/ros2_ws/install/vector_add/local/lib/python3.10/dist-packages",
+        "/home/neha/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/home/neha/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/neha/ros2_ws/install/point_cloud/lib/python3.10/site-packages",
+        "/home/neha/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages",
+        "/home/neha/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/ros2_ws/install/waypoints/lib/python3.10/site-packages",
+        "/home/neha/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/ros2_ws/install/mapping/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/neha/ros2_ws/install/vector_add/local/lib/python3.10/dist-packages",
+        "/home/neha/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/home/neha/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/neha/ros2_ws/install/point_cloud/lib/python3.10/site-packages",
+        "/home/neha/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages",
+        "/home/neha/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/ros2_ws/install/waypoints/lib/python3.10/site-packages",
+        "/home/neha/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/local/lib/python3.10/dist-packages",
+        "/home/neha/voidwalking/ros2_ws/install/mapping/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

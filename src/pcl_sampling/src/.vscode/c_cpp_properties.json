@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/neha/ros2_ws/install/vector_add/include/**",
+        "/home/neha/ros2_ws/install/tutorial_interfaces/include/**",
+        "/home/neha/ros2_ws/install/turtlesim/include/**",
+        "/home/neha/ros2_ws/install/polygon_plugins/include/**",
+        "/home/neha/ros2_ws/install/polygon_base/include/**",
+        "/home/neha/ros2_ws/install/more_interfaces/include/**",
+        "/home/neha/voidwalking/arduino_ws/microros_ws/install/micro_ros_agent/include/**",
+        "/home/neha/voidwalking/arduino_ws/microros_ws/install/micro_ros_msgs/include/**",
+        "/home/neha/voidwalking/ros2_ws/install/zed_components/include/**",
+        "/home/neha/voidwalking/ros2_ws/install/zed_interfaces/include/**",
+        "/home/neha/voidwalking/ros2_ws/install/spatio_temporal_voxel_layer/include/**",
+        "/home/neha/voidwalking/ros2_ws/install/mapping/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/neha/ros2_ws/src/cpp_parameters/include/**",
+        "/home/neha/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/neha/ros2_ws/src/cpp_srvcli/include/**",
+        "/home/neha/ros2_ws/src/hw1_vectoradd/include/**",
+        "/home/neha/ros2_ws/src/more_interfaces/include/**",
+        "/home/neha/ros2_ws/src/pcl_sampling/include/**",
+        "/home/neha/ros2_ws/src/polygon_base/include/**",
+        "/home/neha/ros2_ws/src/polygon_plugins/include/**",
+        "/home/neha/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/neha/ros2_ws/src/tutorial/include/**",
+        "/home/neha/ros2_ws/src/tutorial_interfaces/include/**",
+        "/home/neha/ros2_ws/src/vbm_project_env/include/**",
+        "/home/neha/ros2_ws/src/vector_add/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
