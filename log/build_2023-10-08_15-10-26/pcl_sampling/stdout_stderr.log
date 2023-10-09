@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target pcl_sampling[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o[0m
+[01m[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  134 |   RCLCPP_INFO([01;31m[Krclcpp[m[K::get_logger("rclcpp"), "Point 1: %d" " Point 2: %d" " Point 3: %d",
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KPCL_INFO[m[K’?
+  134 |   [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "Point 1: %d" " Point 2: %d" " Point 3: %d",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+      |   [32m[KPCL_INFO[m[K
+gmake[2]: *** [CMakeFiles/pcl_sampling.dir/build.make:76: CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcl_sampling.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

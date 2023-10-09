@@ -1,0 +1,22 @@
+[0.172s] Invoking command in '/home/justin/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/pcl_sampling -- -j12 -l12
+[0.230s] [100%] Built target pcl_sampling
+[0.242s] Invoked command in '/home/justin/vbm_project/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/pcl_sampling -- -j12 -l12
+[0.306s] Invoking command in '/home/justin/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --install /home/justin/vbm_project/build/pcl_sampling
+[0.312s] -- Install configuration: ""
+[0.312s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.sh
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.dsv
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.bash
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.sh
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.zsh
+[0.313s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.dsv
+[0.313s] -- Installing: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/package.dsv
+[0.314s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling
+[0.314s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake
+[0.314s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake
+[0.315s] -- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/package.xml
+[0.315s] Invoked command in '/home/justin/vbm_project/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/justin/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --install /home/justin/vbm_project/build/pcl_sampling

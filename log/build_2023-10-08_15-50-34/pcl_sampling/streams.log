@@ -1,0 +1,11 @@
+[0.135s] Invoking command in '/home/justin/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/pcl_sampling -- -j12 -l12
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target pcl_sampling[0m
+[0.207s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o[0m
+[6.900s] [01m[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[6.900s] [01m[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:135:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kreader[m[K’
+[6.900s]   135 |   [01;31m[Kreader[m[K.read ("/home/justin/Downloads/pointcloud_copy1.pcd", *centroid_cloud);
+[6.900s]       |   [01;31m[K^~~~~~[m[K
+[9.292s] gmake[2]: *** [CMakeFiles/pcl_sampling.dir/build.make:76: CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o] Error 1
+[9.292s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcl_sampling.dir/all] Error 2
+[9.292s] gmake: *** [Makefile:146: all] Error 2
+[9.294s] Invoked command in '/home/justin/vbm_project/build/pcl_sampling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/pcl_sampling -- -j12 -l12

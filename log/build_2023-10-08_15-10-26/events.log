@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (pcl_sampling) JobQueued: {'identifier': 'pcl_sampling', 'dependencies': OrderedDict()}
+[0.000429] (vbm_project_env) JobQueued: {'identifier': 'vbm_project_env', 'dependencies': OrderedDict()}
+[0.001339] (pcl_sampling) JobStarted: {'identifier': 'pcl_sampling'}
+[0.099668] (-) TimerEvent: {}
+[0.155133] (vbm_project_env) JobStarted: {'identifier': 'vbm_project_env'}
+[0.200192] (-) TimerEvent: {}
+[0.297023] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'cmake'}
+[0.298411] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'build'}
+[0.299727] (pcl_sampling) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/justin/vbm_project/build/pcl_sampling', '--', '-j12', '-l12'], 'cwd': '/home/justin/vbm_project/build/pcl_sampling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'justin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/justin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1773'), ('SYSTEMD_EXEC_PID', '1995'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5739'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/justin/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('JOURNAL_STREAM', '8:34156'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'justin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/justin-ubuntu-22:@/tmp/.ICE-unix/1963,unix/justin-ubuntu-22:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '483f601b71104536bc778d020f3194b4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R05OC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b38ea56-db1c-4bca-bf76-95390fd97861'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/justin/vbm_project/build/pcl_sampling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble')]), 'shell': False}
+[0.309987] (-) TimerEvent: {}
+[0.310239] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'cmake'}
+[0.311003] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'build'}
+[0.311514] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/justin/vbm_project/build/vbm_project_env', '--', '-j12', '-l12'], 'cwd': '/home/justin/vbm_project/build/vbm_project_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'justin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/justin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1773'), ('SYSTEMD_EXEC_PID', '1995'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5739'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/justin/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('JOURNAL_STREAM', '8:34156'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'justin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/justin-ubuntu-22:@/tmp/.ICE-unix/1963,unix/justin-ubuntu-22:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '483f601b71104536bc778d020f3194b4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R05OC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b38ea56-db1c-4bca-bf76-95390fd97861'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/justin/vbm_project/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble')]), 'shell': False}
+[0.400373] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.410081] (pcl_sampling) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcl_sampling\x1b[0m\n'}
+[0.410817] (-) TimerEvent: {}
+[0.456734] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'install'}
+[0.480253] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/justin/vbm_project/build/vbm_project_env'], 'cwd': '/home/justin/vbm_project/build/vbm_project_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'justin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/justin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1773'), ('SYSTEMD_EXEC_PID', '1995'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5739'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/justin/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('JOURNAL_STREAM', '8:34156'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'justin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/justin-ubuntu-22:@/tmp/.ICE-unix/1963,unix/justin-ubuntu-22:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '483f601b71104536bc778d020f3194b4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R05OC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b38ea56-db1c-4bca-bf76-95390fd97861'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/justin/vbm_project/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble')]), 'shell': False}
+[0.491454] (pcl_sampling) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o\x1b[0m\n'}
+[0.508696] (vbm_project_env) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.509804] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/launch\n'}
+[0.510191] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/launch/simulation.launch.py\n'}
+[0.510325] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/worlds\n'}
+[0.510417] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/worlds/simulation.world\n'}
+[0.510506] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/urdf\n'}
+[0.510588] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/urdf/camera.urdf\n'}
+[0.510674] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/ament_index/resource_index/package_run_dependencies/vbm_project_env\n'}
+[0.510765] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/ament_index/resource_index/parent_prefix_path/vbm_project_env\n'}
+[0.510844] (-) TimerEvent: {}
+[0.511006] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.sh\n'}
+[0.511110] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.dsv\n'}
+[0.511201] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/path.sh\n'}
+[0.511289] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/path.dsv\n'}
+[0.511371] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.bash\n'}
+[0.511454] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.sh\n'}
+[0.511538] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.zsh\n'}
+[0.511660] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.dsv\n'}
+[0.511747] (vbm_project_env) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/package.dsv\n'}
+[0.511832] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/ament_index/resource_index/packages/vbm_project_env\n'}
+[0.511915] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig.cmake\n'}
+[0.512004] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig-version.cmake\n'}
+[0.512092] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/package.xml\n'}
+[0.513269] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.611523] (-) TimerEvent: {}
+[0.713160] (-) TimerEvent: {}
+[0.814754] (-) TimerEvent: {}
+[0.837951] (vbm_project_env) JobEnded: {'identifier': 'vbm_project_env', 'rc': 0}
+[0.915181] (-) TimerEvent: {}
+[1.016107] (-) TimerEvent: {}
+[1.116748] (-) TimerEvent: {}
+[1.218679] (-) TimerEvent: {}
+[1.319545] (-) TimerEvent: {}
+[1.420347] (-) TimerEvent: {}
+[1.521817] (-) TimerEvent: {}
+[1.622456] (-) TimerEvent: {}
+[1.723247] (-) TimerEvent: {}
+[1.823963] (-) TimerEvent: {}
+[1.925118] (-) TimerEvent: {}
+[2.025692] (-) TimerEvent: {}
+[2.126189] (-) TimerEvent: {}
+[2.227151] (-) TimerEvent: {}
+[2.327652] (-) TimerEvent: {}
+[2.428426] (-) TimerEvent: {}
+[2.529019] (-) TimerEvent: {}
+[2.630336] (-) TimerEvent: {}
+[2.730842] (-) TimerEvent: {}
+[2.831433] (-) TimerEvent: {}
+[2.933011] (-) TimerEvent: {}
+[3.033670] (-) TimerEvent: {}
+[3.134447] (-) TimerEvent: {}
+[3.235275] (-) TimerEvent: {}
+[3.336417] (-) TimerEvent: {}
+[3.437374] (-) TimerEvent: {}
+[3.538168] (-) TimerEvent: {}
+[3.639770] (-) TimerEvent: {}
+[3.740303] (-) TimerEvent: {}
+[3.840859] (-) TimerEvent: {}
+[3.941576] (-) TimerEvent: {}
+[4.042208] (-) TimerEvent: {}
+[4.143048] (-) TimerEvent: {}
+[4.243922] (-) TimerEvent: {}
+[4.345589] (-) TimerEvent: {}
+[4.446492] (-) TimerEvent: {}
+[4.547491] (-) TimerEvent: {}
+[4.648324] (-) TimerEvent: {}
+[4.749295] (-) TimerEvent: {}
+[4.849812] (-) TimerEvent: {}
+[4.950331] (-) TimerEvent: {}
+[5.050830] (-) TimerEvent: {}
+[5.151724] (-) TimerEvent: {}
+[5.253739] (-) TimerEvent: {}
+[5.354410] (-) TimerEvent: {}
+[5.455209] (-) TimerEvent: {}
+[5.556148] (-) TimerEvent: {}
+[5.656711] (-) TimerEvent: {}
+[5.757713] (-) TimerEvent: {}
+[5.859072] (-) TimerEvent: {}
+[5.959844] (-) TimerEvent: {}
+[6.060620] (-) TimerEvent: {}
+[6.161908] (-) TimerEvent: {}
+[6.262512] (-) TimerEvent: {}
+[6.363986] (-) TimerEvent: {}
+[6.465592] (-) TimerEvent: {}
+[6.566553] (-) TimerEvent: {}
+[6.667760] (-) TimerEvent: {}
+[6.769058] (-) TimerEvent: {}
+[6.870042] (-) TimerEvent: {}
+[6.970854] (-) TimerEvent: {}
+[7.071748] (-) TimerEvent: {}
+[7.172458] (-) TimerEvent: {}
+[7.273673] (-) TimerEvent: {}
+[7.374901] (-) TimerEvent: {}
+[7.475489] (-) TimerEvent: {}
+[7.576177] (-) TimerEvent: {}
+[7.677382] (-) TimerEvent: {}
+[7.779291] (-) TimerEvent: {}
+[7.879784] (-) TimerEvent: {}
+[7.980258] (-) TimerEvent: {}
+[8.080758] (-) TimerEvent: {}
+[8.181310] (-) TimerEvent: {}
+[8.281782] (-) TimerEvent: {}
+[8.382407] (-) TimerEvent: {}
+[8.483253] (-) TimerEvent: {}
+[8.584096] (-) TimerEvent: {}
+[8.685308] (-) TimerEvent: {}
+[8.785812] (-) TimerEvent: {}
+[8.886580] (-) TimerEvent: {}
+[8.987261] (-) TimerEvent: {}
+[9.087871] (-) TimerEvent: {}
+[9.188375] (-) TimerEvent: {}
+[9.289011] (-) TimerEvent: {}
+[9.390138] (-) TimerEvent: {}
+[9.491826] (-) TimerEvent: {}
+[9.592723] (-) TimerEvent: {}
+[9.693211] (-) TimerEvent: {}
+[9.793597] (-) TimerEvent: {}
+[9.894147] (-) TimerEvent: {}
+[9.994874] (-) TimerEvent: {}
+[10.095640] (-) TimerEvent: {}
+[10.196131] (-) TimerEvent: {}
+[10.296840] (-) TimerEvent: {}
+[10.397663] (-) TimerEvent: {}
+[10.498545] (-) TimerEvent: {}
+[10.599621] (-) TimerEvent: {}
+[10.700157] (-) TimerEvent: {}
+[10.800688] (-) TimerEvent: {}
+[10.901360] (-) TimerEvent: {}
+[11.002044] (-) TimerEvent: {}
+[11.102747] (-) TimerEvent: {}
+[11.203724] (-) TimerEvent: {}
+[11.304378] (-) TimerEvent: {}
+[11.404963] (-) TimerEvent: {}
+[11.505243] (-) TimerEvent: {}
+[11.605514] (-) TimerEvent: {}
+[11.705783] (-) TimerEvent: {}
+[11.806054] (-) TimerEvent: {}
+[11.837595] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.837794] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.837875] (pcl_sampling) StderrLine: {'line': b'  134 |   RCLCPP_INFO(\x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::get_logger("rclcpp"), "Point 1: %d" " Point 2: %d" " Point 3: %d",\n'}
+[11.837937] (pcl_sampling) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.845663] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPCL_INFO\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.845799] (pcl_sampling) StderrLine: {'line': b'  134 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(rclcpp::get_logger("rclcpp"), "Point 1: %d" " Point 2: %d" " Point 3: %d",\n'}
+[11.845867] (pcl_sampling) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.845928] (pcl_sampling) StderrLine: {'line': b'      |   \x1b[32m\x1b[KPCL_INFO\x1b[m\x1b[K\n'}
+[11.906170] (-) TimerEvent: {}
+[12.006436] (-) TimerEvent: {}
+[12.106707] (-) TimerEvent: {}
+[12.206975] (-) TimerEvent: {}
+[12.307251] (-) TimerEvent: {}
+[12.407542] (-) TimerEvent: {}
+[12.507785] (-) TimerEvent: {}
+[12.608056] (-) TimerEvent: {}
+[12.708323] (-) TimerEvent: {}
+[12.808588] (-) TimerEvent: {}
+[12.908856] (-) TimerEvent: {}
+[13.009118] (-) TimerEvent: {}
+[13.109386] (-) TimerEvent: {}
+[13.209623] (-) TimerEvent: {}
+[13.230798] (pcl_sampling) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pcl_sampling.dir/build.make:76: CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o] Error 1\n'}
+[13.231034] (pcl_sampling) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcl_sampling.dir/all] Error 2\n'}
+[13.231158] (pcl_sampling) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.233333] (pcl_sampling) CommandEnded: {'returncode': 2}
+[13.309997] (-) TimerEvent: {}
+[13.318457] (pcl_sampling) JobEnded: {'identifier': 'pcl_sampling', 'rc': 2}
+[13.329079] (-) EventReactorShutdown: {}

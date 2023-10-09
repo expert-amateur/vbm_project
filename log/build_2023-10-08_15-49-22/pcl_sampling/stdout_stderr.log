@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target pcl_sampling[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o[0m
+[01m[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kcentroid_cloud[m[K’ was not declared in this scope
+  134 |   reader.read ("/home/justin/Downloads/pointcloud_copy1.pcd", *[01;31m[Kcentroid_cloud[m[K);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pcl_sampling.dir/build.make:76: CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pcl_sampling.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

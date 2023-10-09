@@ -1,0 +1,338 @@
+[0.000000] (-) TimerEvent: {}
+[0.000724] (pcl_sampling) JobQueued: {'identifier': 'pcl_sampling', 'dependencies': OrderedDict()}
+[0.000765] (vbm_project_env) JobQueued: {'identifier': 'vbm_project_env', 'dependencies': OrderedDict()}
+[0.000788] (pcl_sampling) JobStarted: {'identifier': 'pcl_sampling'}
+[0.067178] (vbm_project_env) JobStarted: {'identifier': 'vbm_project_env'}
+[0.100157] (-) TimerEvent: {}
+[0.133977] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'cmake'}
+[0.135579] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'build'}
+[0.135722] (pcl_sampling) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/justin/vbm_project/build/pcl_sampling', '--', '-j12', '-l12'], 'cwd': '/home/justin/vbm_project/build/pcl_sampling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'justin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/justin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1773'), ('SYSTEMD_EXEC_PID', '1995'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5739'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/justin/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('JOURNAL_STREAM', '8:34156'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'justin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/justin-ubuntu-22:@/tmp/.ICE-unix/1963,unix/justin-ubuntu-22:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '483f601b71104536bc778d020f3194b4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R05OC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b38ea56-db1c-4bca-bf76-95390fd97861'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/justin/vbm_project/build/pcl_sampling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble')]), 'shell': False}
+[0.138963] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'cmake'}
+[0.139455] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'build'}
+[0.139734] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/justin/vbm_project/build/vbm_project_env', '--', '-j12', '-l12'], 'cwd': '/home/justin/vbm_project/build/vbm_project_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'justin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/justin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1773'), ('SYSTEMD_EXEC_PID', '1995'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5739'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/justin/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('JOURNAL_STREAM', '8:34156'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'justin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/justin-ubuntu-22:@/tmp/.ICE-unix/1963,unix/justin-ubuntu-22:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '483f601b71104536bc778d020f3194b4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R05OC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b38ea56-db1c-4bca-bf76-95390fd97861'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/justin/vbm_project/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble')]), 'shell': False}
+[0.159064] (pcl_sampling) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.171971] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.188366] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'install'}
+[0.196448] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/justin/vbm_project/build/vbm_project_env'], 'cwd': '/home/justin/vbm_project/build/vbm_project_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'justin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/justin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1773'), ('SYSTEMD_EXEC_PID', '1995'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5739'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/justin/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('JOURNAL_STREAM', '8:34156'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'justin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/justin-ubuntu-22:@/tmp/.ICE-unix/1963,unix/justin-ubuntu-22:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '483f601b71104536bc778d020f3194b4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R05OC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b38ea56-db1c-4bca-bf76-95390fd97861'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/justin/vbm_project/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble')]), 'shell': False}
+[0.200223] (-) TimerEvent: {}
+[0.202792] (vbm_project_env) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.203184] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/launch\n'}
+[0.203265] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/launch/simulation.launch.py\n'}
+[0.203419] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/worlds\n'}
+[0.203514] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/worlds/simulation.world\n'}
+[0.203581] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/urdf\n'}
+[0.203645] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/urdf/camera.urdf\n'}
+[0.203708] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/ament_index/resource_index/package_run_dependencies/vbm_project_env\n'}
+[0.203771] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/ament_index/resource_index/parent_prefix_path/vbm_project_env\n'}
+[0.203835] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.sh\n'}
+[0.203899] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.dsv\n'}
+[0.203963] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/path.sh\n'}
+[0.204026] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/path.dsv\n'}
+[0.204088] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.bash\n'}
+[0.204151] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.sh\n'}
+[0.204213] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.zsh\n'}
+[0.204277] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.dsv\n'}
+[0.204507] (vbm_project_env) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/package.dsv\n'}
+[0.204733] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/ament_index/resource_index/packages/vbm_project_env\n'}
+[0.205102] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig.cmake\n'}
+[0.205320] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig-version.cmake\n'}
+[0.205512] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/vbm_project_env/share/vbm_project_env/package.xml\n'}
+[0.205605] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.300339] (-) TimerEvent: {}
+[0.309034] (pcl_sampling) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.345260] (pcl_sampling) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.366259] (vbm_project_env) JobEnded: {'identifier': 'vbm_project_env', 'rc': 0}
+[0.400465] (-) TimerEvent: {}
+[0.500732] (-) TimerEvent: {}
+[0.601012] (-) TimerEvent: {}
+[0.606599] (pcl_sampling) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.611196] (pcl_sampling) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.611367] (pcl_sampling) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.701100] (-) TimerEvent: {}
+[0.744611] (pcl_sampling) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.750235] (pcl_sampling) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.755260] (pcl_sampling) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.801219] (-) TimerEvent: {}
+[0.879995] (pcl_sampling) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[0.901345] (-) TimerEvent: {}
+[1.001616] (-) TimerEvent: {}
+[1.009870] (pcl_sampling) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.101740] (-) TimerEvent: {}
+[1.135383] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.135735] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.136035] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.136317] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.136704] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.137008] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.137486] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.137795] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.138019] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.138495] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.138926] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.139282] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.139706] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.140227] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.140633] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.141028] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.141389] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.141801] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.142202] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.142641] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.143358] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.143641] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.143905] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.144176] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.144537] (pcl_sampling) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.149745] (pcl_sampling) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.201855] (-) TimerEvent: {}
+[1.219206] (pcl_sampling) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.226971] (pcl_sampling) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.241480] (pcl_sampling) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.264385] (pcl_sampling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.292395] (pcl_sampling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301953] (-) TimerEvent: {}
+[1.395374] (pcl_sampling) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.400658] (pcl_sampling) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402059] (-) TimerEvent: {}
+[1.502257] (-) TimerEvent: {}
+[1.509616] (pcl_sampling) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.532909] (pcl_sampling) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.576160] (pcl_sampling) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.602369] (-) TimerEvent: {}
+[1.702620] (-) TimerEvent: {}
+[1.785027] (pcl_sampling) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.802733] (-) TimerEvent: {}
+[1.846796] (pcl_sampling) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.847074] (pcl_sampling) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.847171] (pcl_sampling) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.847434] (pcl_sampling) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.848009] (pcl_sampling) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.848103] (pcl_sampling) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.848325] (pcl_sampling) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.848933] (pcl_sampling) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.872658] (pcl_sampling) StdoutLine: {'line': b'-- Generating done\n'}
+[1.875244] (pcl_sampling) StdoutLine: {'line': b'-- Build files have been written to: /home/justin/vbm_project/build/pcl_sampling\n'}
+[1.902722] (pcl_sampling) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcl_sampling\x1b[0m\n'}
+[1.902912] (-) TimerEvent: {}
+[1.927559] (pcl_sampling) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o\x1b[0m\n'}
+[2.003016] (-) TimerEvent: {}
+[2.103284] (-) TimerEvent: {}
+[2.203556] (-) TimerEvent: {}
+[2.303830] (-) TimerEvent: {}
+[2.404127] (-) TimerEvent: {}
+[2.504428] (-) TimerEvent: {}
+[2.604718] (-) TimerEvent: {}
+[2.705019] (-) TimerEvent: {}
+[2.805318] (-) TimerEvent: {}
+[2.905613] (-) TimerEvent: {}
+[3.005908] (-) TimerEvent: {}
+[3.106206] (-) TimerEvent: {}
+[3.206508] (-) TimerEvent: {}
+[3.306806] (-) TimerEvent: {}
+[3.407103] (-) TimerEvent: {}
+[3.507403] (-) TimerEvent: {}
+[3.607700] (-) TimerEvent: {}
+[3.707991] (-) TimerEvent: {}
+[3.808285] (-) TimerEvent: {}
+[3.908583] (-) TimerEvent: {}
+[4.008879] (-) TimerEvent: {}
+[4.109174] (-) TimerEvent: {}
+[4.209468] (-) TimerEvent: {}
+[4.309766] (-) TimerEvent: {}
+[4.410068] (-) TimerEvent: {}
+[4.510370] (-) TimerEvent: {}
+[4.610671] (-) TimerEvent: {}
+[4.710953] (-) TimerEvent: {}
+[4.811230] (-) TimerEvent: {}
+[4.911502] (-) TimerEvent: {}
+[5.011796] (-) TimerEvent: {}
+[5.112105] (-) TimerEvent: {}
+[5.212521] (-) TimerEvent: {}
+[5.312882] (-) TimerEvent: {}
+[5.413157] (-) TimerEvent: {}
+[5.513431] (-) TimerEvent: {}
+[5.613699] (-) TimerEvent: {}
+[5.713977] (-) TimerEvent: {}
+[5.814257] (-) TimerEvent: {}
+[5.914550] (-) TimerEvent: {}
+[6.014835] (-) TimerEvent: {}
+[6.115096] (-) TimerEvent: {}
+[6.215366] (-) TimerEvent: {}
+[6.315653] (-) TimerEvent: {}
+[6.415936] (-) TimerEvent: {}
+[6.516213] (-) TimerEvent: {}
+[6.616484] (-) TimerEvent: {}
+[6.716765] (-) TimerEvent: {}
+[6.817040] (-) TimerEvent: {}
+[6.917321] (-) TimerEvent: {}
+[7.017605] (-) TimerEvent: {}
+[7.117881] (-) TimerEvent: {}
+[7.218150] (-) TimerEvent: {}
+[7.318424] (-) TimerEvent: {}
+[7.418697] (-) TimerEvent: {}
+[7.518968] (-) TimerEvent: {}
+[7.619242] (-) TimerEvent: {}
+[7.719531] (-) TimerEvent: {}
+[7.819809] (-) TimerEvent: {}
+[7.920082] (-) TimerEvent: {}
+[8.020356] (-) TimerEvent: {}
+[8.120629] (-) TimerEvent: {}
+[8.220905] (-) TimerEvent: {}
+[8.321182] (-) TimerEvent: {}
+[8.421463] (-) TimerEvent: {}
+[8.521740] (-) TimerEvent: {}
+[8.622012] (-) TimerEvent: {}
+[8.644857] (pcl_sampling) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.645018] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.645088] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.645150] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.645210] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.645271] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.645329] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.645387] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.645445] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.645511] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.645569] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.645627] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:12\x1b[m\x1b[K:\n'}
+[8.645684] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.645743] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.645806] (pcl_sampling) StderrLine: {'line': b'  134 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Point 1: %d" " Point 2: %d" " Point 3: %d"\x1b[m\x1b[K,\n'}
+[8.645865] (pcl_sampling) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.645923] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[8.645981] (pcl_sampling) StderrLine: {'line': b'  134 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Point 1: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K" " Point 2: %d" " Point 3: %d",\n'}
+[8.646045] (pcl_sampling) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[8.646102] (pcl_sampling) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[8.646159] (pcl_sampling) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[8.646217] (pcl_sampling) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[8.646274] (pcl_sampling) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.646331] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.646399] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.646461] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.646519] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.646576] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.646633] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.646691] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.646748] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.646806] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.646863] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.646920] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:12\x1b[m\x1b[K:\n'}
+[8.646978] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.647044] (pcl_sampling) StderrLine: {'line': b'  134 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Point 1: %d" " Point 2: %d" " Point 3: %d"\x1b[m\x1b[K,\n'}
+[8.647109] (pcl_sampling) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.647168] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[8.647227] (pcl_sampling) StderrLine: {'line': b'  134 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Point 1: %d" " Point 2: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K" " Point 3: %d",\n'}
+[8.647284] (pcl_sampling) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[8.647342] (pcl_sampling) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[8.647406] (pcl_sampling) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[8.647464] (pcl_sampling) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[8.647523] (pcl_sampling) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.647587] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.647646] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.647704] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.647762] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.647821] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.647879] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.647938] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.647997] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.648056] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.648115] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.648191] (pcl_sampling) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:12\x1b[m\x1b[K:\n'}
+[8.648262] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.648325] (pcl_sampling) StderrLine: {'line': b'  134 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Point 1: %d" " Point 2: %d" " Point 3: %d"\x1b[m\x1b[K,\n'}
+[8.648387] (pcl_sampling) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.648446] (pcl_sampling) StderrLine: {'line': b'\x1b[01m\x1b[K/home/justin/vbm_project/src/pcl_sampling/src/pcl_sampling.cpp:134:86:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[8.648506] (pcl_sampling) StderrLine: {'line': b'  134 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Point 1: %d" " Point 2: %d" " Point 3: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[8.648570] (pcl_sampling) StderrLine: {'line': b'      |                                                                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[8.648630] (pcl_sampling) StderrLine: {'line': b'      |                                                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[8.648689] (pcl_sampling) StderrLine: {'line': b'      |                                                                                      \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[8.648760] (pcl_sampling) StderrLine: {'line': b'      |                                                                                     \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[8.722140] (-) TimerEvent: {}
+[8.822422] (-) TimerEvent: {}
+[8.922698] (-) TimerEvent: {}
+[9.022969] (-) TimerEvent: {}
+[9.123245] (-) TimerEvent: {}
+[9.223522] (-) TimerEvent: {}
+[9.323794] (-) TimerEvent: {}
+[9.424072] (-) TimerEvent: {}
+[9.524369] (-) TimerEvent: {}
+[9.624665] (-) TimerEvent: {}
+[9.724977] (-) TimerEvent: {}
+[9.825282] (-) TimerEvent: {}
+[9.925625] (-) TimerEvent: {}
+[10.025936] (-) TimerEvent: {}
+[10.126223] (-) TimerEvent: {}
+[10.226509] (-) TimerEvent: {}
+[10.326783] (-) TimerEvent: {}
+[10.427059] (-) TimerEvent: {}
+[10.527332] (-) TimerEvent: {}
+[10.627612] (-) TimerEvent: {}
+[10.727892] (-) TimerEvent: {}
+[10.828169] (-) TimerEvent: {}
+[10.928460] (-) TimerEvent: {}
+[11.028742] (-) TimerEvent: {}
+[11.129016] (-) TimerEvent: {}
+[11.229285] (-) TimerEvent: {}
+[11.329554] (-) TimerEvent: {}
+[11.429820] (-) TimerEvent: {}
+[11.530088] (-) TimerEvent: {}
+[11.630364] (-) TimerEvent: {}
+[11.730608] (-) TimerEvent: {}
+[11.830895] (-) TimerEvent: {}
+[11.851960] (pcl_sampling) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcl_sampling\x1b[0m\n'}
+[11.931024] (-) TimerEvent: {}
+[12.031314] (-) TimerEvent: {}
+[12.131642] (-) TimerEvent: {}
+[12.231974] (-) TimerEvent: {}
+[12.332357] (-) TimerEvent: {}
+[12.432754] (-) TimerEvent: {}
+[12.533144] (-) TimerEvent: {}
+[12.633552] (-) TimerEvent: {}
+[12.733963] (-) TimerEvent: {}
+[12.834385] (-) TimerEvent: {}
+[12.934793] (-) TimerEvent: {}
+[13.035200] (-) TimerEvent: {}
+[13.135571] (-) TimerEvent: {}
+[13.235979] (-) TimerEvent: {}
+[13.336392] (-) TimerEvent: {}
+[13.436800] (-) TimerEvent: {}
+[13.537229] (-) TimerEvent: {}
+[13.637634] (-) TimerEvent: {}
+[13.738010] (-) TimerEvent: {}
+[13.838448] (-) TimerEvent: {}
+[13.938821] (-) TimerEvent: {}
+[14.039226] (-) TimerEvent: {}
+[14.139608] (-) TimerEvent: {}
+[14.240023] (-) TimerEvent: {}
+[14.340457] (-) TimerEvent: {}
+[14.440864] (-) TimerEvent: {}
+[14.541250] (-) TimerEvent: {}
+[14.641648] (-) TimerEvent: {}
+[14.742015] (-) TimerEvent: {}
+[14.842399] (-) TimerEvent: {}
+[14.910654] (pcl_sampling) StdoutLine: {'line': b'[100%] Built target pcl_sampling\n'}
+[14.921643] (pcl_sampling) CommandEnded: {'returncode': 0}
+[14.942444] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'install'}
+[14.942514] (-) TimerEvent: {}
+[14.943525] (pcl_sampling) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/justin/vbm_project/build/pcl_sampling'], 'cwd': '/home/justin/vbm_project/build/pcl_sampling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'justin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/justin'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1773'), ('SYSTEMD_EXEC_PID', '1995'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5739'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/justin/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'justin'), ('JOURNAL_STREAM', '8:34156'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'justin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/justin-ubuntu-22:@/tmp/.ICE-unix/1963,unix/justin-ubuntu-22:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '483f601b71104536bc778d020f3194b4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R05OC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8b38ea56-db1c-4bca-bf76-95390fd97861'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/justin/vbm_project/build/pcl_sampling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/justin/vbm_project/install/vbm_project_env:/home/justin/vbm_project/install/pcl_sampling:/opt/ros/humble')]), 'shell': False}
+[14.950328] (pcl_sampling) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.950648] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling\n'}
+[14.951697] (pcl_sampling) StdoutLine: {'line': b'-- Set runtime path of "/home/justin/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling" to ""\n'}
+[14.951869] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling\n'}
+[14.952036] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling\n'}
+[14.952186] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh\n'}
+[14.952356] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv\n'}
+[14.952468] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.sh\n'}
+[14.952607] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.dsv\n'}
+[14.952756] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.bash\n'}
+[14.952866] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.sh\n'}
+[14.952973] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.zsh\n'}
+[14.953079] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.dsv\n'}
+[14.953184] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/package.dsv\n'}
+[14.953289] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling\n'}
+[14.953395] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake\n'}
+[14.953501] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake\n'}
+[14.953638] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/package.xml\n'}
+[14.954280] (pcl_sampling) CommandEnded: {'returncode': 0}
+[15.043674] (-) TimerEvent: {}
+[15.095436] (pcl_sampling) JobEnded: {'identifier': 'pcl_sampling', 'rc': 0}
+[15.096258] (-) EventReactorShutdown: {}
