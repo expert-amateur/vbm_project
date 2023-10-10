@@ -1,0 +1,35 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/justin/vbm_project/install/grasp_analysis_planning/lib/python3.10/site-packages/grasp-analysis-planning.egg-link (link to .)
+running egg_info
+writing ../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info/PKG-INFO
+writing dependency_links to ../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info/dependency_links.txt
+writing entry points to ../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info/entry_points.txt
+writing requirements to ../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info/requires.txt
+writing top-level names to ../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info/top_level.txt
+reading manifest file '../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info/SOURCES.txt'
+writing manifest file '../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/justin/vbm_project/build/grasp_analysis_planning/build
+creating /home/justin/vbm_project/build/grasp_analysis_planning/build/lib
+creating /home/justin/vbm_project/build/grasp_analysis_planning/build/lib/grasp_analysis_planning
+copying grasp_analysis_planning/grasp_planning.py -> /home/justin/vbm_project/build/grasp_analysis_planning/build/lib/grasp_analysis_planning
+copying grasp_analysis_planning/__init__.py -> /home/justin/vbm_project/build/grasp_analysis_planning/build/lib/grasp_analysis_planning
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/justin/vbm_project/install/grasp_analysis_planning/lib/python3.10/site-packages/grasp_analysis_planning
+copying /home/justin/vbm_project/build/grasp_analysis_planning/build/lib/grasp_analysis_planning/grasp_planning.py -> /home/justin/vbm_project/install/grasp_analysis_planning/lib/python3.10/site-packages/grasp_analysis_planning
+copying /home/justin/vbm_project/build/grasp_analysis_planning/build/lib/grasp_analysis_planning/__init__.py -> /home/justin/vbm_project/install/grasp_analysis_planning/lib/python3.10/site-packages/grasp_analysis_planning
+byte-compiling /home/justin/vbm_project/install/grasp_analysis_planning/lib/python3.10/site-packages/grasp_analysis_planning/grasp_planning.py to grasp_planning.cpython-310.pyc
+byte-compiling /home/justin/vbm_project/install/grasp_analysis_planning/lib/python3.10/site-packages/grasp_analysis_planning/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/grasp_analysis_planning/grasp_analysis_planning.egg-info to /home/justin/vbm_project/install/grasp_analysis_planning/lib/python3.10/site-packages/grasp_analysis_planning-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/justin/vbm_project/build/grasp_analysis_planning/install.log'

@@ -1,4 +1,0 @@
-Invoking command in '/home/justin/vbm_project/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/vbm_project_env -- -j12 -l12
-Invoked command in '/home/justin/vbm_project/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/vbm_project_env -- -j12 -l12
-Invoking command in '/home/justin/vbm_project/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/justin/vbm_project/build/vbm_project_env
-Invoked command in '/home/justin/vbm_project/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/justin/vbm_project/build/vbm_project_env

@@ -8,6 +8,9 @@
 #include <pcl/sample_consensus/model_types.h>
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/visualization/pcl_visualizer.h>
+#include &lt;sensor_msgs/PointCloud2.h&gt;
+#include &lt;pcl_conversions/pcl_conversions.h&gt;
+#include <ros/ros.h>
 
 typedef pcl::PointXYZ PointT;
 
@@ -128,6 +131,9 @@ main ()
 	  writer.write ("/home/neha/Downloads/pointcloud_copy1.pcd", *cloud_cylinder, false);
     //   visualizePointCloud(cloud_cylinder, "cylinder");
   }
+
+  sensor_msgs::PointCloud2 msg;
+  pcl::toROSMsg(*cloud_cylinder.get(), msg);
   return (0);
 }
 

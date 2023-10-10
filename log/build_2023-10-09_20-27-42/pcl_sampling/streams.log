@@ -1,0 +1,74 @@
+[0.409s] Invoking command in '/home/justin/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justin/vbm_project/src/pcl_sampling -DCMAKE_INSTALL_PREFIX=/home/justin/vbm_project/install/pcl_sampling
+[0.420s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.559s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.595s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.851s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.856s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.856s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.989s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.994s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.999s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.130s] -- Found Qhull version 8.0.2
+[1.262s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.389s] -- looking for PCL_COMMON
+[1.390s] -- looking for PCL_KDTREE
+[1.390s] -- looking for PCL_OCTREE
+[1.390s] -- looking for PCL_SEARCH
+[1.391s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.391s] -- looking for PCL_FILTERS
+[1.391s] -- looking for PCL_2D
+[1.392s] -- looking for PCL_GEOMETRY
+[1.392s] -- looking for PCL_IO
+[1.392s] -- looking for PCL_FEATURES
+[1.393s] -- looking for PCL_ML
+[1.393s] -- looking for PCL_SEGMENTATION
+[1.394s] -- looking for PCL_VISUALIZATION
+[1.394s] -- looking for PCL_SURFACE
+[1.394s] -- looking for PCL_REGISTRATION
+[1.395s] -- looking for PCL_KEYPOINTS
+[1.395s] -- looking for PCL_TRACKING
+[1.396s] -- looking for PCL_RECOGNITION
+[1.396s] -- looking for PCL_STEREO
+[1.396s] -- looking for PCL_APPS
+[1.397s] -- looking for PCL_IN_HAND_SCANNER
+[1.398s] -- looking for PCL_MODELER
+[1.398s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.398s] -- looking for PCL_OUTOFCORE
+[1.399s] -- looking for PCL_PEOPLE
+[1.400s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.463s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.463s] -- Configured cppcheck include dirs: 
+[1.463s] -- Configured cppcheck exclude dirs and/or files: 
+[1.464s] -- Added test 'lint_cmake' to check CMake code style
+[1.464s] -- Added test 'uncrustify' to check C / C++ code style
+[1.464s] -- Configured uncrustify additional arguments: 
+[1.465s] -- Added test 'xmllint' to check XML markup files
+[1.465s] -- Configuring done
+[1.482s] -- Generating done
+[1.483s] -- Build files have been written to: /home/justin/vbm_project/build/pcl_sampling
+[1.493s] Invoked command in '/home/justin/vbm_project/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justin/vbm_project/src/pcl_sampling -DCMAKE_INSTALL_PREFIX=/home/justin/vbm_project/install/pcl_sampling
+[1.494s] Invoking command in '/home/justin/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/pcl_sampling -- -j12 -l12
+[1.528s] [35m[1mConsolidate compiler generated dependencies of target pcl_sampling[0m
+[1.552s] [100%] Built target pcl_sampling
+[1.562s] Invoked command in '/home/justin/vbm_project/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/justin/vbm_project/build/pcl_sampling -- -j12 -l12
+[1.583s] Invoking command in '/home/justin/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/justin/vbm_project/build/pcl_sampling
+[1.590s] -- Install configuration: ""
+[1.590s] -- Execute custom install script
+[1.591s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling
+[1.591s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling
+[1.591s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling
+[1.591s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh
+[1.591s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv
+[1.591s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.sh
+[1.591s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.dsv
+[1.592s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.bash
+[1.592s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.sh
+[1.592s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.zsh
+[1.592s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.dsv
+[1.592s] -- Symlinking: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/package.dsv
+[1.599s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling
+[1.599s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake
+[1.600s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake
+[1.600s] -- Up-to-date symlink: /home/justin/vbm_project/install/pcl_sampling/share/pcl_sampling/package.xml
+[1.602s] Invoked command in '/home/justin/vbm_project/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/justin/vbm_project/build/pcl_sampling

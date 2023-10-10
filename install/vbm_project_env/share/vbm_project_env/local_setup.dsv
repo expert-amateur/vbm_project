@@ -1,2 +1,1 @@
-source;share/vbm_project_env/environment/ament_prefix_path.sh
-source;share/vbm_project_env/environment/path.sh
+/home/justin/vbm_project/build/vbm_project_env/ament_cmake_environment_hooks/local_setup.dsv
