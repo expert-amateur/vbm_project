@@ -57,28 +57,29 @@ class preprocessor: public rclcpp::Node
         preprocessed_pc_publisher=this->create_publisher<sensor_msgs::msg::PointCloud2>("pc_preprocessed_data",1);
         raw_pc_subscription = this->create_subscription<sensor_msgs::msg::PointCloud2>("pc_data", 10, std::bind(&preprocessor::pcl_preprocessor_callback, this, _1));
     }
-
+    private:
     void pcl_preprocessor_callback(const sensor_msgs::msg::PointCloud2 &raw_pc) const// (const std_msgs::msg::String & depth_img)
     {   
         // PCL still uses boost::shared_ptr internally
-        sensor_msgs::msg::PointCloud2 point_cloud_msg;
-        pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud =
-        boost::make_shared<pcl::PointCloud<pcl::PointXYZRGB>>();
+        //boost::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB>> cloud =boost::make_shared<pcl::PointCloud<pcl::PointXYZRGB>>();
+        std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB>> cloud=std::make_shared<pcl::PointCloud<pcl::PointXYZRGB>>();
+        // Convert the boost::shared_ptr to std::shared_ptr
+        //std::shared_ptr<pcl::PointCloud<pcl::PointXYZRGB>> cloud_std = cloud_boost;
 
         // This will convert the message into a pcl::PointCloud
-        pcl::fromROSMsg(*raw_pc, *cloud);
+        pcl::fromROSMsg(raw_pc, *cloud);
 
-        std::cerr << "PointCloud before filtering: " << cloud->width * cloud->height 
-       << " data points (" << pcl::getFieldsList (*cloud) << ")." << std::endl;
-
+        std::cerr << "PointCloud before filtering: " << cloud->width * cloud->height << " data points (" << pcl::getFieldsList (*cloud) << ")." << std::endl;
+        std::shared_ptr<pcl::PCLPointCloud2> cloud_pcl2=std::make_shared<pcl::PCLPointCloud2>();
+        pcl::toPCLPointCloud2(*cloud, *cloud_pcl2);
         // Create the filtering object
         pcl::VoxelGrid<pcl::PCLPointCloud2> sor;
-        sor.setInputCloud (*cloud);
+        sor.setInputCloud (cloud_pcl2);
         sor.setLeafSize (0.00001f, 0.00001f, 0.00001f);
+        std::shared_ptr<pcl::PCLPointCloud2> cloud_filtered;
         sor.filter (*cloud_filtered);
 
-        std::cerr << "PointCloud after filtering: " << cloud_filtered->width * cloud_filtered->height 
-       << " data points (" << pcl::getFieldsList (*cloud_filtered) << ")." << std::endl;
+        std::cerr << "PointCloud after filtering: " << cloud_filtered->width * cloud_filtered->height<< " data points (" << pcl::getFieldsList (*cloud_filtered) << ")." << std::endl;
 
         // All the objects needed
         pcl::PCDReader reader;
