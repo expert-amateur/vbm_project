@@ -28,7 +28,7 @@ def generate_launch_description():
     spawn_entity = Node(package='gazebo_ros', executable="spawn_entity.py",
                         arguments=['-file',simulation_urdf_path,
                                     '-entity','camera',
-                                    '-z','1',
+                                    '-z','1.5',
                                     '-P','1.57'],
                         output='both' )
 

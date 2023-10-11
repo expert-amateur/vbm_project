@@ -2,7 +2,11 @@ Metadata-Version: 2.1
 Name: rgbd-img-cap
 Version: 0.0.0
 Summary: Capture the rgdb image
+Home-page: UNKNOWN
 Maintainer: megatron
 Maintainer-email: hpawar@wpi.edu
 License: TODO: License declaration
-Requires-Dist: setuptools
+Platform: UNKNOWN
+
+UNKNOWN
+

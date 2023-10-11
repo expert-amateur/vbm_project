@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/expert_amateur/vbm_stuff/vbm_project/src/rgbd_pc_converter_cpp
+CMAKE_SOURCE_DIR = /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/src/rgbd_pc_converter_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp
+CMAKE_BINARY_DIR = /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/expert_amateur/vbm_stuff/vbm_project/src/rgbd_pc_converter_cpp /home/expert_amateur/vbm_stuff/vbm_project/src/rgbd_pc_converter_cpp /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/src/rgbd_pc_converter_cpp /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/src/rgbd_pc_converter_cpp /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

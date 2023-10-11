@@ -41,10 +41,7 @@ class converter:public rclcpp::Node
     converter() : Node("rgbd_pc_converter"), count_(0)
     {
         pc_publisher=this->create_publisher<sensor_msgs::msg::PointCloud2>("pc_data",1);
-        //depth_image_subscription = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&converter::image_callback, this, _1));
-
         depth_image_subscription = this->create_subscription<sensor_msgs::msg::Image>("/realsense/depth/image_raw", 10, std::bind(&converter::image_callback, this, _1));
-        // timer_ = this->create_wall_timer(50ms, std::bind(&converter::pc_timer_callback, this));
     }
     
     private:
@@ -88,15 +85,6 @@ class converter:public rclcpp::Node
         }
 
         sensor_msgs::msg::PointCloud2 point_cloud_msg;
-        // point_cloud_msg.header.frame_id = "Camera Frame"; // Set the appropriate frame ID
-        // point_cloud_msg.height = 1; // Since it's not a stacked point cloud, set height to 1
-        // point_cloud_msg.width = point_cloud.size(); // Set the width to the number of points
-        // point_cloud_msg.is_bigendian = false;
-        // point_cloud_msg.is_dense = true; // Assuming all points are valid (non-NaN)
-        // point_cloud_msg.point_step = sizeof(float) * 4; // 4 floats for x, y, z, and intensity
-        // point_cloud_msg.row_step = point_cloud_msg.point_step * point_cloud.size();
-        // point_cloud_msg.data.resize(point_cloud_msg.row_step);
-        // pc2_msg_ = std::make_shared<sensor_msgs::msg::PointCloud2>();
         pcl::toROSMsg(point_cloud, point_cloud_msg);
         point_cloud_msg.header.frame_id = "map";
         // ...
@@ -104,11 +92,7 @@ class converter:public rclcpp::Node
         point_cloud_msg.header.stamp = now();
         pc_publisher->publish(point_cloud_msg);         
     }
-    // void pc_timer_callback()
-    // {
 
-    // }
-    //rclcpp::Subscription<std_msgs::msg::String>::SharedPtr depth_image_subscription;
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr depth_image_subscription;
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pc_publisher;

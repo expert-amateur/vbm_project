@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/expert_amateur/vbm_stuff/vbm_project/src/rgbd_pc_converter_cpp
+CMAKE_SOURCE_DIR = /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/src/rgbd_pc_converter_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp
+CMAKE_BINARY_DIR = /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp/CMakeFiles /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp/CMakeFiles /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/expert_amateur/vbm_stuff/vbm_project/build/rgbd_pc_converter_cpp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/megatron/workspace/WPI/RBE450X-VBM/project/repos/vbm_project/build/rgbd_pc_converter_cpp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
