@@ -1,2 +1,0 @@
-[console_scripts]
-rgbd_image_capture = rgbd_img_cap.subscriber:main
