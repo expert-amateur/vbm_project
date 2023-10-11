@@ -1,0 +1,4 @@
+source;share/rgbd_pc_converter_cpp/local_setup.bash
+source;share/rgbd_pc_converter_cpp/local_setup.dsv
+source;share/rgbd_pc_converter_cpp/local_setup.sh
+source;share/rgbd_pc_converter_cpp/local_setup.zsh
