@@ -2,7 +2,7 @@ import rclpy
 import open3d as o3d
 import numpy as np
 from rclpy.node import Node
-from sensor_msgs.msg import PointCloud2
+from sensor_msgs.msg import PointCloud2, PointField
 from sensor_msgs.point_cloud2 import read_points
 from sensor_msgs.point_cloud2 import create_cloud_xyz32
 
