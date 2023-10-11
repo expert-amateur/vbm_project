@@ -115,7 +115,14 @@ class converter:public rclcpp::Node
     size_t count_;
 };
 
-int main()
+int main(int argc, char * argv[])
 {
-    return 1;
+
+	//initialize ROS
+	rclcpp::init(argc, argv);
+
+	//create the 
+	rclcpp::spin(std::make_shared<converter>());
+	rclcpp::shutdown();
+    return 0;
 }
