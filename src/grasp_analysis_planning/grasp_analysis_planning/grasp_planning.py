@@ -20,7 +20,7 @@ class GraspAnalysisPlanning(Node):
 
 
     def process_pcd(self):
-        pcd = o3d.io.read_point_cloud("voxelized_drill_projected.pcd")
+        pcd = o3d.io.read_point_cloud("hammer_flattened.pcd")
 
         # Convert PointCloud to numpy array
         points = np.asarray(pcd.points)
@@ -45,7 +45,7 @@ class GraspAnalysisPlanning(Node):
             x, y = int(point[0] - min_x), int(point[1] - min_y)
             image[y, x] = 255  # Set the pixel to white
 
-        cv.imwrite("image.png", image)
+        cv.imwrite("hammer_image.png", image)
     
     # def process_image(self, data):
 # 
