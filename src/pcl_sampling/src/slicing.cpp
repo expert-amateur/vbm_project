@@ -51,7 +51,7 @@ int main() {
     pcl::PassThrough<PointT> pass;
     pass.setInputCloud(cloud);
     pass.setFilterFieldName("z");
-    pass.setFilterLimits(minPt.z + 0.000008, minPt.z + 0.000009); 
+    pass.setFilterLimits(minPt.z + 0, minPt.z + 0.000009); 
     pass.filter(*cloud_filtered);
 
     std::cout << "Size of the filtered point cloud: " << cloud_filtered->points.size() << std::endl;
@@ -76,7 +76,7 @@ int main() {
 
     // Save the thresholded points to a new PCD file
     pcl::PCDWriter writer;
-    writer.write("/home/neha/VBM/vbm_project/thresholded_pointcloud.pcd", *cloud_filtered);
+    writer.write("/home/neha/VBM/vbm_project/thresholded_pointcloud.pcd", *rimPoints);
 
     // Uncomment below if you wish to visualize 
     // visualizePointCloud(cloud_filtered, "Filtered PointCloud");
