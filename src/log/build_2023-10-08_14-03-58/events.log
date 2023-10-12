@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (pcl_sampling) JobQueued: {'identifier': 'pcl_sampling', 'dependencies': OrderedDict()}
+[0.000172] (vbm_project_env) JobQueued: {'identifier': 'vbm_project_env', 'dependencies': OrderedDict()}
+[0.000823] (pcl_sampling) JobStarted: {'identifier': 'pcl_sampling'}
+[0.099834] (-) TimerEvent: {}
+[0.149817] (vbm_project_env) JobStarted: {'identifier': 'vbm_project_env'}
+[0.200386] (-) TimerEvent: {}
+[0.302298] (-) TimerEvent: {}
+[0.306325] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'cmake'}
+[0.309756] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'build'}
+[0.310365] (pcl_sampling) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling', '--', '-j8', '-l8'], 'cwd': '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'can'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/can/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/can'), ('OLDPWD', '/home/can/ros2_ws/src/vbm_project'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1438'), ('SYSTEMD_EXEC_PID', '1648'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '189389'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/can/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'can'), ('JOURNAL_STREAM', '8:31874'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'can'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/can/ros2_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/canguven:@/tmp/.ICE-unix/1610,unix/canguven:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '741c31f022344fea95206a39c930269d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QNKVB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7116f558-e021-4ef7-8bc0-863e560ffff4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/can/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages:/home/can/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/can/ros2_ws/install/hw4/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.322705] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'cmake'}
+[0.323466] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'build'}
+[0.323927] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env', '--', '-j8', '-l8'], 'cwd': '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'can'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/can/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/can'), ('OLDPWD', '/home/can/ros2_ws/src/vbm_project'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1438'), ('SYSTEMD_EXEC_PID', '1648'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '189389'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/can/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'can'), ('JOURNAL_STREAM', '8:31874'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'can'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/can/ros2_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/canguven:@/tmp/.ICE-unix/1610,unix/canguven:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '741c31f022344fea95206a39c930269d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QNKVB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7116f558-e021-4ef7-8bc0-863e560ffff4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/can/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages:/home/can/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/can/ros2_ws/install/hw4/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.402458] (-) TimerEvent: {}
+[0.411698] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.428846] (pcl_sampling) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcl_sampling\x1b[0m\n'}
+[0.466134] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'install'}
+[0.484843] (pcl_sampling) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o\x1b[0m\n'}
+[0.490327] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env'], 'cwd': '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'can'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/can/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/can'), ('OLDPWD', '/home/can/ros2_ws/src/vbm_project'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1438'), ('SYSTEMD_EXEC_PID', '1648'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '189389'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/can/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'can'), ('JOURNAL_STREAM', '8:31874'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'can'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/can/ros2_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/canguven:@/tmp/.ICE-unix/1610,unix/canguven:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '741c31f022344fea95206a39c930269d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QNKVB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7116f558-e021-4ef7-8bc0-863e560ffff4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/can/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages:/home/can/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/can/ros2_ws/install/hw4/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.500924] (vbm_project_env) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.502049] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/launch\n'}
+[0.506212] (-) TimerEvent: {}
+[0.506583] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/launch/simulation.launch.py\n'}
+[0.506913] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/worlds\n'}
+[0.507050] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/worlds/simulation.world\n'}
+[0.507149] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/urdf\n'}
+[0.507231] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/urdf/camera.urdf\n'}
+[0.507309] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/ament_index/resource_index/package_run_dependencies/vbm_project_env\n'}
+[0.507391] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/ament_index/resource_index/parent_prefix_path/vbm_project_env\n'}
+[0.507505] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.sh\n'}
+[0.507599] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.dsv\n'}
+[0.507685] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/environment/path.sh\n'}
+[0.507856] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/environment/path.dsv\n'}
+[0.507949] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/local_setup.bash\n'}
+[0.508025] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/local_setup.sh\n'}
+[0.508099] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/local_setup.zsh\n'}
+[0.508173] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/local_setup.dsv\n'}
+[0.508257] (vbm_project_env) StdoutLine: {'line': b'-- Installing: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.dsv\n'}
+[0.508357] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/ament_index/resource_index/packages/vbm_project_env\n'}
+[0.508478] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig.cmake\n'}
+[0.508584] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig-version.cmake\n'}
+[0.508700] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.xml\n'}
+[0.510306] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.606509] (-) TimerEvent: {}
+[0.706867] (-) TimerEvent: {}
+[0.807597] (-) TimerEvent: {}
+[0.901200] (vbm_project_env) JobEnded: {'identifier': 'vbm_project_env', 'rc': 0}
+[0.907659] (-) TimerEvent: {}
+[1.008198] (-) TimerEvent: {}
+[1.109236] (-) TimerEvent: {}
+[1.209862] (-) TimerEvent: {}
+[1.310954] (-) TimerEvent: {}
+[1.411529] (-) TimerEvent: {}
+[1.512711] (-) TimerEvent: {}
+[1.614043] (-) TimerEvent: {}
+[1.715212] (-) TimerEvent: {}
+[1.816369] (-) TimerEvent: {}
+[1.916909] (-) TimerEvent: {}
+[2.018066] (-) TimerEvent: {}
+[2.118818] (-) TimerEvent: {}
+[2.220098] (-) TimerEvent: {}
+[2.320677] (-) TimerEvent: {}
+[2.420974] (-) TimerEvent: {}
+[2.521370] (-) TimerEvent: {}
+[2.621853] (-) TimerEvent: {}
+[2.722158] (-) TimerEvent: {}
+[2.822655] (-) TimerEvent: {}
+[2.923760] (-) TimerEvent: {}
+[3.024160] (-) TimerEvent: {}
+[3.124485] (-) TimerEvent: {}
+[3.225059] (-) TimerEvent: {}
+[3.326080] (-) TimerEvent: {}
+[3.426794] (-) TimerEvent: {}
+[3.527799] (-) TimerEvent: {}
+[3.628437] (-) TimerEvent: {}
+[3.729095] (-) TimerEvent: {}
+[3.829642] (-) TimerEvent: {}
+[3.930789] (-) TimerEvent: {}
+[4.031461] (-) TimerEvent: {}
+[4.131777] (-) TimerEvent: {}
+[4.232306] (-) TimerEvent: {}
+[4.333563] (-) TimerEvent: {}
+[4.434769] (-) TimerEvent: {}
+[4.535991] (-) TimerEvent: {}
+[4.636390] (-) TimerEvent: {}
+[4.736720] (-) TimerEvent: {}
+[4.836983] (-) TimerEvent: {}
+[4.937321] (-) TimerEvent: {}
+[5.037718] (-) TimerEvent: {}
+[5.138037] (-) TimerEvent: {}
+[5.238591] (-) TimerEvent: {}
+[5.339789] (-) TimerEvent: {}
+[5.440170] (-) TimerEvent: {}
+[5.540595] (-) TimerEvent: {}
+[5.640975] (-) TimerEvent: {}
+[5.741341] (-) TimerEvent: {}
+[5.841798] (-) TimerEvent: {}
+[5.942292] (-) TimerEvent: {}
+[6.043298] (-) TimerEvent: {}
+[6.143752] (-) TimerEvent: {}
+[6.244225] (-) TimerEvent: {}
+[6.344725] (-) TimerEvent: {}
+[6.445382] (-) TimerEvent: {}
+[6.545800] (-) TimerEvent: {}
+[6.646427] (-) TimerEvent: {}
+[6.747522] (-) TimerEvent: {}
+[6.848077] (-) TimerEvent: {}
+[6.948364] (-) TimerEvent: {}
+[7.048814] (-) TimerEvent: {}
+[7.149573] (-) TimerEvent: {}
+[7.249861] (-) TimerEvent: {}
+[7.350397] (-) TimerEvent: {}
+[7.451367] (-) TimerEvent: {}
+[7.551839] (-) TimerEvent: {}
+[7.652122] (-) TimerEvent: {}
+[7.752702] (-) TimerEvent: {}
+[7.853715] (-) TimerEvent: {}
+[7.954269] (-) TimerEvent: {}
+[8.055260] (-) TimerEvent: {}
+[8.156368] (-) TimerEvent: {}
+[8.256719] (-) TimerEvent: {}
+[8.357252] (-) TimerEvent: {}
+[8.458221] (-) TimerEvent: {}
+[8.558618] (-) TimerEvent: {}
+[8.658932] (-) TimerEvent: {}
+[8.759367] (-) TimerEvent: {}
+[8.860440] (-) TimerEvent: {}
+[8.960935] (-) TimerEvent: {}
+[9.062050] (-) TimerEvent: {}
+[9.163078] (-) TimerEvent: {}
+[9.263431] (-) TimerEvent: {}
+[9.363736] (-) TimerEvent: {}
+[9.464343] (-) TimerEvent: {}
+[9.565418] (-) TimerEvent: {}
+[9.666422] (-) TimerEvent: {}
+[9.767327] (-) TimerEvent: {}
+[9.868794] (-) TimerEvent: {}
+[9.969382] (-) TimerEvent: {}
+[10.069738] (-) TimerEvent: {}
+[10.170065] (-) TimerEvent: {}
+[10.270894] (-) TimerEvent: {}
+[10.371854] (-) TimerEvent: {}
+[10.472795] (-) TimerEvent: {}
+[10.573357] (-) TimerEvent: {}
+[10.674012] (-) TimerEvent: {}
+[10.774617] (-) TimerEvent: {}
+[10.875857] (-) TimerEvent: {}
+[10.976520] (-) TimerEvent: {}
+[11.078084] (-) TimerEvent: {}
+[11.179304] (-) TimerEvent: {}
+[11.279936] (-) TimerEvent: {}
+[11.380299] (-) TimerEvent: {}
+[11.480631] (-) TimerEvent: {}
+[11.581161] (-) TimerEvent: {}
+[11.681733] (-) TimerEvent: {}
+[11.782350] (-) TimerEvent: {}
+[11.883569] (-) TimerEvent: {}
+[11.984522] (-) TimerEvent: {}
+[12.085300] (-) TimerEvent: {}
+[12.186507] (-) TimerEvent: {}
+[12.286892] (-) TimerEvent: {}
+[12.387251] (-) TimerEvent: {}
+[12.487890] (-) TimerEvent: {}
+[12.588960] (-) TimerEvent: {}
+[12.690047] (-) TimerEvent: {}
+[12.791005] (-) TimerEvent: {}
+[12.892207] (-) TimerEvent: {}
+[12.993341] (-) TimerEvent: {}
+[13.093929] (-) TimerEvent: {}
+[13.195174] (-) TimerEvent: {}
+[13.295700] (-) TimerEvent: {}
+[13.395977] (-) TimerEvent: {}
+[13.496483] (-) TimerEvent: {}
+[13.597616] (-) TimerEvent: {}
+[13.698195] (-) TimerEvent: {}
+[13.799172] (-) TimerEvent: {}
+[13.899708] (-) TimerEvent: {}
+[14.001168] (-) TimerEvent: {}
+[14.101805] (-) TimerEvent: {}
+[14.202597] (-) TimerEvent: {}
+[14.303459] (-) TimerEvent: {}
+[14.404374] (-) TimerEvent: {}
+[14.504951] (-) TimerEvent: {}
+[14.605939] (-) TimerEvent: {}
+[14.706307] (-) TimerEvent: {}
+[14.807086] (-) TimerEvent: {}
+[14.908134] (-) TimerEvent: {}
+[15.008528] (-) TimerEvent: {}
+[15.109152] (-) TimerEvent: {}
+[15.209878] (-) TimerEvent: {}
+[15.310381] (-) TimerEvent: {}
+[15.411038] (-) TimerEvent: {}
+[15.512579] (-) TimerEvent: {}
+[15.614002] (-) TimerEvent: {}
+[15.715194] (-) TimerEvent: {}
+[15.816096] (-) TimerEvent: {}
+[15.917359] (-) TimerEvent: {}
+[16.018652] (-) TimerEvent: {}
+[16.119464] (-) TimerEvent: {}
+[16.220728] (-) TimerEvent: {}
+[16.322115] (-) TimerEvent: {}
+[16.324661] (pcl_sampling) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcl_sampling\x1b[0m\n'}
+[16.422195] (-) TimerEvent: {}
+[16.523027] (-) TimerEvent: {}
+[16.623913] (-) TimerEvent: {}
+[16.724274] (-) TimerEvent: {}
+[16.824837] (-) TimerEvent: {}
+[16.926061] (-) TimerEvent: {}
+[17.026799] (-) TimerEvent: {}
+[17.127454] (-) TimerEvent: {}
+[17.228853] (-) TimerEvent: {}
+[17.329897] (-) TimerEvent: {}
+[17.430955] (-) TimerEvent: {}
+[17.531592] (-) TimerEvent: {}
+[17.632615] (-) TimerEvent: {}
+[17.733058] (-) TimerEvent: {}
+[17.833684] (-) TimerEvent: {}
+[17.934608] (-) TimerEvent: {}
+[18.035412] (-) TimerEvent: {}
+[18.136195] (-) TimerEvent: {}
+[18.237661] (-) TimerEvent: {}
+[18.338734] (-) TimerEvent: {}
+[18.439303] (-) TimerEvent: {}
+[18.540724] (-) TimerEvent: {}
+[18.641976] (-) TimerEvent: {}
+[18.743110] (-) TimerEvent: {}
+[18.844159] (-) TimerEvent: {}
+[18.944678] (-) TimerEvent: {}
+[19.045127] (-) TimerEvent: {}
+[19.145737] (-) TimerEvent: {}
+[19.247149] (-) TimerEvent: {}
+[19.348387] (-) TimerEvent: {}
+[19.449667] (-) TimerEvent: {}
+[19.550597] (-) TimerEvent: {}
+[19.650988] (-) TimerEvent: {}
+[19.751764] (-) TimerEvent: {}
+[19.853297] (-) TimerEvent: {}
+[19.954591] (-) TimerEvent: {}
+[20.055220] (-) TimerEvent: {}
+[20.156148] (-) TimerEvent: {}
+[20.257772] (-) TimerEvent: {}
+[20.358648] (-) TimerEvent: {}
+[20.459765] (-) TimerEvent: {}
+[20.560669] (-) TimerEvent: {}
+[20.661377] (-) TimerEvent: {}
+[20.762728] (-) TimerEvent: {}
+[20.853620] (pcl_sampling) StdoutLine: {'line': b'[100%] Built target pcl_sampling\n'}
+[20.862909] (-) TimerEvent: {}
+[20.869825] (pcl_sampling) CommandEnded: {'returncode': 0}
+[20.917437] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'install'}
+[20.917519] (pcl_sampling) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling'], 'cwd': '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'can'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/can/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/can'), ('OLDPWD', '/home/can/ros2_ws/src/vbm_project'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1438'), ('SYSTEMD_EXEC_PID', '1648'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '189389'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/can/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'can'), ('JOURNAL_STREAM', '8:31874'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'can'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/can/ros2_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/canguven:@/tmp/.ICE-unix/1610,unix/canguven:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '741c31f022344fea95206a39c930269d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QNKVB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7116f558-e021-4ef7-8bc0-863e560ffff4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/can/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages:/home/can/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/can/ros2_ws/install/hw4/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/can/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/can/ros2_ws/install/vbm_project_env:/home/can/ros2_ws/install/rrbot_gazebo:/home/can/ros2_ws/install/rrbot_description_ros2:/home/can/ros2_ws/install/rrbot_description:/home/can/ros2_ws/install/pcl_sampling:/home/can/ros2_ws/install/examples_rclcpp_wait_set:/home/can/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/can/ros2_ws/install/examples_rclcpp_minimal_timer:/home/can/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/can/ros2_ws/install/examples_rclcpp_minimal_service:/home/can/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/can/ros2_ws/install/examples_rclcpp_minimal_composition:/home/can/ros2_ws/install/examples_rclcpp_minimal_client:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/can/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/can/ros2_ws/install/examples_rclcpp_cbg_executor:/home/can/ros2_ws/install/examples_rclcpp_async_client:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[20.932024] (pcl_sampling) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.932318] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib/pcl_sampling/pcl_sampling\n'}
+[20.933595] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling\n'}
+[20.933798] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling\n'}
+[20.933881] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh\n'}
+[20.934004] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv\n'}
+[20.934389] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/path.sh\n'}
+[20.934960] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/path.dsv\n'}
+[20.936073] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.bash\n'}
+[20.936851] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.sh\n'}
+[20.938059] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.zsh\n'}
+[20.938662] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.dsv\n'}
+[20.938884] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.dsv\n'}
+[20.938967] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling\n'}
+[20.939045] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake\n'}
+[20.939114] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake\n'}
+[20.939200] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.xml\n'}
+[20.940827] (pcl_sampling) CommandEnded: {'returncode': 0}
+[20.963716] (-) TimerEvent: {}
+[21.064664] (-) TimerEvent: {}
+[21.165338] (-) TimerEvent: {}
+[21.237628] (pcl_sampling) JobEnded: {'identifier': 'pcl_sampling', 'rc': 0}
+[21.239725] (-) EventReactorShutdown: {}

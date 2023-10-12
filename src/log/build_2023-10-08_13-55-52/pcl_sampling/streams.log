@@ -1,0 +1,158 @@
+[0.330s] Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/can/ros2_ws/src/vbm_project/src/pcl_sampling -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling
+[0.479s] -- The C compiler identification is GNU 11.4.0
+[0.614s] -- The CXX compiler identification is GNU 11.4.0
+[0.629s] -- Detecting C compiler ABI info
+[0.788s] -- Detecting C compiler ABI info - done
+[0.799s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.799s] -- Detecting C compile features
+[0.800s] -- Detecting C compile features - done
+[0.808s] -- Detecting CXX compiler ABI info
+[1.000s] -- Detecting CXX compiler ABI info - done
+[1.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.018s] -- Detecting CXX compile features
+[1.019s] -- Detecting CXX compile features - done
+[1.028s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.570s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.863s] -- Checking for module 'eigen3'
+[1.892s] --   Found eigen3, version 3.4.0
+[1.972s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.972s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.037s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.075s] -- Checking for module 'flann'
+[2.109s] --   Found flann, version 1.9.1
+[2.237s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.237s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.313s] -- Looking for pthread.h
+[2.484s] -- Looking for pthread.h - found
+[2.485s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.650s] -- Found Threads: TRUE  
+[2.653s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.668s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.959s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.960s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.967s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.985s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.019s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.044s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.242s] -- Found X11: /usr/include   
+[3.243s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.379s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.379s] -- Looking for gethostbyname
+[3.501s] -- Looking for gethostbyname - found
+[3.501s] -- Looking for connect
+[3.625s] -- Looking for connect - found
+[3.626s] -- Looking for remove
+[3.740s] -- Looking for remove - found
+[3.740s] -- Looking for shmat
+[3.864s] -- Looking for shmat - found
+[3.864s] -- Looking for IceConnectionNumber in ICE
+[3.976s] -- Looking for IceConnectionNumber in ICE - found
+[4.131s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[4.137s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[4.139s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[4.142s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[4.169s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[4.180s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[4.187s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[4.199s] -- Found utf8cpp: /usr/include/utf8cpp  
+[4.333s] -- Checking for module 'libusb-1.0'
+[4.362s] --   Found libusb-1.0, version 1.0.25
+[4.431s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.435s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[4.435s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.537s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.537s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.538s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.863s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.877s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.891s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.187s] -- Found Qhull version 8.0.2
+[5.505s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.819s] -- looking for PCL_COMMON
+[5.820s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.820s] -- looking for PCL_KDTREE
+[5.821s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.821s] -- looking for PCL_OCTREE
+[5.824s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.825s] -- looking for PCL_SEARCH
+[5.828s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.828s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.830s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.831s] -- looking for PCL_FILTERS
+[5.835s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.835s] -- looking for PCL_2D
+[5.836s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.836s] -- looking for PCL_GEOMETRY
+[5.837s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.837s] -- looking for PCL_IO
+[5.840s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.841s] -- looking for PCL_FEATURES
+[5.846s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.846s] -- looking for PCL_ML
+[5.849s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.849s] -- looking for PCL_SEGMENTATION
+[5.850s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.850s] -- looking for PCL_VISUALIZATION
+[5.851s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.852s] -- looking for PCL_SURFACE
+[5.853s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.853s] -- looking for PCL_REGISTRATION
+[5.854s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.855s] -- looking for PCL_KEYPOINTS
+[5.860s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.861s] -- looking for PCL_TRACKING
+[5.863s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.864s] -- looking for PCL_RECOGNITION
+[5.865s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.865s] -- looking for PCL_STEREO
+[5.866s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.866s] -- looking for PCL_APPS
+[5.867s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.868s] -- looking for PCL_IN_HAND_SCANNER
+[5.868s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.869s] -- looking for PCL_MODELER
+[5.869s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.869s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.870s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.870s] -- looking for PCL_OUTOFCORE
+[5.875s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.876s] -- looking for PCL_PEOPLE
+[5.878s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.879s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[5.887s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.091s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.092s] -- Configured cppcheck include dirs: 
+[6.092s] -- Configured cppcheck exclude dirs and/or files: 
+[6.093s] -- Added test 'lint_cmake' to check CMake code style
+[6.094s] -- Added test 'uncrustify' to check C / C++ code style
+[6.095s] -- Configured uncrustify additional arguments: 
+[6.098s] -- Added test 'xmllint' to check XML markup files
+[6.102s] -- Configuring done
+[6.131s] -- Generating done
+[6.136s] -- Build files have been written to: /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling
+[6.168s] Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/can/ros2_ws/src/vbm_project/src/pcl_sampling -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling
+[6.170s] Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling -- -j8 -l8
+[6.266s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o[0m
+[27.500s] [100%] [32m[1mLinking CXX executable pcl_sampling[0m
+[33.874s] [100%] Built target pcl_sampling
+[33.897s] Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling -- -j8 -l8
+[33.969s] Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling
+[33.988s] -- Install configuration: ""
+[33.988s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib/pcl_sampling/pcl_sampling
+[33.989s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling
+[33.989s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling
+[33.989s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh
+[33.989s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv
+[33.989s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/path.sh
+[33.989s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/environment/path.dsv
+[33.990s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.bash
+[33.990s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.sh
+[33.990s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.zsh
+[33.991s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/local_setup.dsv
+[33.993s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.dsv
+[33.994s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling
+[33.996s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake
+[33.996s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake
+[33.996s] -- Installing: /home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.xml
+[34.000s] Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling

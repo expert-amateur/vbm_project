@@ -1,0 +1,10 @@
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/uninstall.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/pcl_sampling_uninstall.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/pcl_sampling.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/test.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/edit_cache.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/rebuild_cache.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/list_install_components.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/install.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/install/local.dir
+/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling/CMakeFiles/install/strip.dir

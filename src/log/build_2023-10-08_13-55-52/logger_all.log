@@ -1,0 +1,207 @@
+[2.177s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.177s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f48ea9122f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f48ea9111b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f48ea9111b0>>)
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.321s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/can/ros2_ws/src/vbm_project/src'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extensions ['ignore', 'ignore_ament_install']
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extension 'ignore'
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extension 'ignore_ament_install'
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extensions ['colcon_pkg']
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extension 'colcon_pkg'
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extensions ['colcon_meta']
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extension 'colcon_meta'
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extensions ['ros']
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(pcl_sampling) by extension 'ros'
+[2.364s] DEBUG:colcon.colcon_core.package_identification:Package 'pcl_sampling' with type 'ros.ament_cmake' and name 'pcl_sampling'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extensions ['ignore', 'ignore_ament_install']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'ignore'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'ignore_ament_install'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extensions ['colcon_pkg']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'colcon_pkg'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extensions ['colcon_meta']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'colcon_meta'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extensions ['ros']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'ros'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extensions ['cmake', 'python']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'cmake'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'python'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extensions ['python_setup_py']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(point_cloud) by extension 'python_setup_py'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extensions ['ignore', 'ignore_ament_install']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extension 'ignore'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extension 'ignore_ament_install'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extensions ['colcon_pkg']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extension 'colcon_pkg'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extensions ['colcon_meta']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extension 'colcon_meta'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extensions ['ros']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(vbm_project_env) by extension 'ros'
+[2.366s] DEBUG:colcon.colcon_core.package_identification:Package 'vbm_project_env' with type 'ros.ament_cmake' and name 'vbm_project_env'
+[2.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.665s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 29 installed packages in /home/can/ros2_ws/install
+[2.703s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[2.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.971s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'cmake_args' from command line to 'None'
+[2.971s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'cmake_target' from command line to 'None'
+[2.971s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.972s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'cmake_clean_cache' from command line to 'False'
+[2.972s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'cmake_clean_first' from command line to 'False'
+[2.972s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'cmake_force_configure' from command line to 'False'
+[2.972s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'ament_cmake_args' from command line to 'None'
+[2.972s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'catkin_cmake_args' from command line to 'None'
+[2.972s] Level 5:colcon.colcon_core.verb:set package 'pcl_sampling' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.972s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_sampling' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling', 'merge_install': False, 'path': '/home/can/ros2_ws/src/vbm_project/src/pcl_sampling', 'symlink_install': False, 'test_result_base': None}
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'cmake_args' from command line to 'None'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'cmake_target' from command line to 'None'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'cmake_clean_cache' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'cmake_clean_first' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'cmake_force_configure' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'ament_cmake_args' from command line to 'None'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'catkin_cmake_args' from command line to 'None'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'vbm_project_env' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.006s] DEBUG:colcon.colcon_core.verb:Building package 'vbm_project_env' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env', 'merge_install': False, 'path': '/home/can/ros2_ws/src/vbm_project/src/vbm_project_env', 'symlink_install': False, 'test_result_base': None}
+[3.038s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.075s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.075s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/can/ros2_ws/src/vbm_project/src/pcl_sampling' with build type 'ament_cmake'
+[3.075s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/can/ros2_ws/src/vbm_project/src/pcl_sampling'
+[3.119s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/can/ros2_ws/src/vbm_project/src/vbm_project_env' with build type 'ament_cmake'
+[3.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/can/ros2_ws/src/vbm_project/src/vbm_project_env'
+[3.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/can/ros2_ws/src/vbm_project/src/pcl_sampling -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling
+[3.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/can/ros2_ws/src/vbm_project/src/vbm_project_env -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env
+[5.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/can/ros2_ws/src/vbm_project/src/vbm_project_env -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env
+[5.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env -- -j8 -l8
+[5.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env -- -j8 -l8
+[5.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env
+[5.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vbm_project_env)
+[5.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/can/ros2_ws/src/vbm_project/src/build/vbm_project_env
+[5.436s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env' for CMake module files
+[5.437s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env' for CMake config files
+[5.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('vbm_project_env', 'cmake_prefix_path')
+[5.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/hook/cmake_prefix_path.ps1'
+[5.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/hook/cmake_prefix_path.dsv'
+[5.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/hook/cmake_prefix_path.sh'
+[5.474s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/bin'
+[5.474s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/lib/pkgconfig/vbm_project_env.pc'
+[5.475s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/lib/python3.10/site-packages'
+[5.475s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/bin'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.ps1'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.dsv'
+[5.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.sh'
+[5.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.bash'
+[5.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.zsh'
+[5.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/colcon-core/packages/vbm_project_env)
+[5.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vbm_project_env)
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env' for CMake module files
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env' for CMake config files
+[5.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('vbm_project_env', 'cmake_prefix_path')
+[5.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/hook/cmake_prefix_path.ps1'
+[5.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/hook/cmake_prefix_path.dsv'
+[5.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/hook/cmake_prefix_path.sh'
+[5.705s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/bin'
+[5.706s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/lib/pkgconfig/vbm_project_env.pc'
+[5.708s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/lib/python3.10/site-packages'
+[5.708s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/bin'
+[5.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.ps1'
+[5.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.dsv'
+[5.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.sh'
+[5.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.bash'
+[5.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/vbm_project_env/package.zsh'
+[5.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/can/ros2_ws/src/vbm_project/src/install/vbm_project_env/share/colcon-core/packages/vbm_project_env)
+[9.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/can/ros2_ws/src/vbm_project/src/pcl_sampling -DCMAKE_INSTALL_PREFIX=/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling
+[9.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling -- -j8 -l8
+[36.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling -- -j8 -l8
+[37.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling
+[37.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_sampling)
+[37.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/can/ros2_ws/install/opencv_test_py:/home/can/ros2_ws/install/launch_testing_examples:/home/can/ros2_ws/install/hw4:/home/can/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/can/ros2_ws/install/examples_rclpy_minimal_service:/home/can/ros2_ws/install/examples_rclpy_minimal_publisher:/home/can/ros2_ws/install/examples_rclpy_minimal_client:/home/can/ros2_ws/install/examples_rclpy_minimal_action_server:/home/can/ros2_ws/install/examples_rclpy_minimal_action_client:/home/can/ros2_ws/install/examples_rclpy_guard_conditions:/home/can/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/can/ros2_ws/src/vbm_project/src/build/pcl_sampling
+[37.124s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling' for CMake module files
+[37.125s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling' for CMake config files
+[37.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_sampling', 'cmake_prefix_path')
+[37.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/hook/cmake_prefix_path.ps1'
+[37.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/hook/cmake_prefix_path.dsv'
+[37.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/hook/cmake_prefix_path.sh'
+[37.177s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib'
+[37.177s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/bin'
+[37.177s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib/pkgconfig/pcl_sampling.pc'
+[37.180s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib/python3.10/site-packages'
+[37.182s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/bin'
+[37.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.ps1'
+[37.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.dsv'
+[37.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.sh'
+[37.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.bash'
+[37.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.zsh'
+[37.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/colcon-core/packages/pcl_sampling)
+[37.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_sampling)
+[37.392s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling' for CMake module files
+[37.393s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling' for CMake config files
+[37.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_sampling', 'cmake_prefix_path')
+[37.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/hook/cmake_prefix_path.ps1'
+[37.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/hook/cmake_prefix_path.dsv'
+[37.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/hook/cmake_prefix_path.sh'
+[37.440s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib'
+[37.441s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/bin'
+[37.442s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib/pkgconfig/pcl_sampling.pc'
+[37.443s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/lib/python3.10/site-packages'
+[37.444s] Level 1:colcon.colcon_core.environment:checking '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/bin'
+[37.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.ps1'
+[37.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.dsv'
+[37.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.sh'
+[37.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.bash'
+[37.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/pcl_sampling/package.zsh'
+[37.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/can/ros2_ws/src/vbm_project/src/install/pcl_sampling/share/colcon-core/packages/pcl_sampling)
+[37.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.493s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.558s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/can/ros2_ws/src/vbm_project/src/install/local_setup.ps1'
+[37.634s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/can/ros2_ws/src/vbm_project/src/install/_local_setup_util_ps1.py'
+[37.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/can/ros2_ws/src/vbm_project/src/install/setup.ps1'
+[37.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/can/ros2_ws/src/vbm_project/src/install/local_setup.sh'
+[37.687s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/can/ros2_ws/src/vbm_project/src/install/_local_setup_util_sh.py'
+[37.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/can/ros2_ws/src/vbm_project/src/install/setup.sh'
+[37.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/can/ros2_ws/src/vbm_project/src/install/local_setup.bash'
+[37.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/can/ros2_ws/src/vbm_project/src/install/setup.bash'
+[37.784s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/can/ros2_ws/src/vbm_project/src/install/local_setup.zsh'
+[37.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/can/ros2_ws/src/vbm_project/src/install/setup.zsh'
