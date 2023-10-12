@@ -24,6 +24,72 @@ magnitude, angle = cv2.cartToPolar(dx, dy, angleInDegrees=True)
 normalized_dx = cv2.normalize(dx, None, 0, 10, cv2.NORM_MINMAX)
 normalized_dy = cv2.normalize(dy, None, 0, 10, cv2.NORM_MINMAX)
 
+def draw_normals(image, points, dx, dy, scale=5):
+    """Draw normals on the image for given points using dx, dy gradients."""
+    for point in [points[650]]:  # Select every 2nd point
+        x, y = point
+        end_x = int(x + dx[y, x] * scale)
+        end_y = int(y + dy[y, x] * scale)
+        cv2.arrowedLine(image, (x, y), (end_x, end_y), (255, 255, 0), 1, tipLength=0.5)
+    return image
+
+def fit_line_normals(image, neighborhood_size=5):
+    """
+    Compute surface normals using line fitting.
+    :param image: The input image with white object outline.
+    :param neighborhood_size: Size of the neighborhood to consider around each white pixel.
+    :return: Normals' dx and dy components.
+    """
+    height, width = image.shape
+    dx = np.zeros_like(image, dtype=np.float64)
+    dy = np.zeros_like(image, dtype=np.float64)
+
+    y, x = np.where(image > 200)  # white points on the image
+
+    # Half of the neighborhood size
+    half_n = neighborhood_size // 2
+
+    for xi, yi in zip(x, y):
+        # Get neighborhood
+        x1 = max(xi - half_n, 0)
+        x2 = min(xi + half_n, width-1)
+        y1 = max(yi - half_n, 0)
+        y2 = min(yi + half_n, height-1)
+        
+        nx, ny = np.where(image[y1:y2, x1:x2] > 200)
+
+        # Correcting coordinates to global image
+        nx += x1
+        ny += y1
+
+        if len(nx) < 2:  # Not enough points
+            continue
+        
+        # Fit line using numpy's polyfit
+        fit_params = np.polyfit(nx, ny, 1)  # Degree 1 (linear fit)
+        
+        # The slope of the fitted line
+        slope = fit_params[0]
+        
+        # Direction vector of the line
+        direction = np.array([1, slope])
+        direction /= np.linalg.norm(direction)
+
+        # Normal (perpendicular to direction)
+        normal = np.array([-direction[1], direction[0]])
+
+        
+        # # Compute the normal
+        # magnitude = np.sqrt(1 + slope**2)
+        # dx[yi, xi] = -1 / magnitude
+        # dy[yi, xi] = slope / magnitude
+        dx[yi, xi] = normal[0]
+        dy[yi, xi] = normal[1]
+
+
+    return dx, dy
+
+
 
 contours, _ = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 largest_contour = max(contours, key=cv2.contourArea)
@@ -93,6 +159,21 @@ print("Result",result)
 
 k=9
 
+#Fitted Line
+fit_dx, fit_dy = fit_line_normals(edges)
+# Visualize normals using line fitting method
+fit_normals_visualized = cv2.cvtColor(edges, cv2.COLOR_GRAY2BGR)
+draw_normals(fit_normals_visualized, white_points, fit_dx, fit_dy)
+fit_resize = cv2.resize(fit_normals_visualized,(1280,960))
+cv2.imshow('Line Fit Normals Visualization', fit_resize)
+cv2.waitKey(0)
+
+
+normals_visualized = cv2.cvtColor(edges, cv2.COLOR_GRAY2BGR)
+draw_normals(normals_visualized, white_points, normalized_dx, normalized_dy)
+resized = cv2.resize(normals_visualized,(640,480))
+cv2.imshow('Normals Visualization', resized)
+cv2.waitKey(0)
 cv2.circle(color_image, (target_key[0], target_key[1]), 5, (0, 255, 0), -1)  
 for i in range(len(result)):
     if result[i][0]!=target_key:
@@ -102,4 +183,6 @@ for i in range(len(result)):
     cv2.circle(color_image,(opposite_point[0],opposite_point[1]),5,(255,0,0),-1)
 cv2.imshow('Closest point', color_image)
 cv2.waitKey(0)
+cv2.destroyAllWindows()
+
 
