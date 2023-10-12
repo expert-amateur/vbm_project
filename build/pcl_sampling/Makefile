@@ -210,6 +210,19 @@ pcl_sampling/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_sampling.dir/build.make CMakeFiles/pcl_sampling.dir/build
 .PHONY : pcl_sampling/fast
 
+#=============================================================================
+# Target rules for targets named slicing
+
+# Build rule for target.
+slicing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 slicing
+.PHONY : slicing
+
+# fast build rule for target.
+slicing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slicing.dir/build.make CMakeFiles/slicing.dir/build
+.PHONY : slicing/fast
+
 src/pcl_sampling.o: src/pcl_sampling.cpp.o
 .PHONY : src/pcl_sampling.o
 
@@ -234,6 +247,30 @@ src/pcl_sampling.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_sampling.dir/build.make CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.s
 .PHONY : src/pcl_sampling.cpp.s
 
+src/slicing.o: src/slicing.cpp.o
+.PHONY : src/slicing.o
+
+# target to build an object file
+src/slicing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slicing.dir/build.make CMakeFiles/slicing.dir/src/slicing.cpp.o
+.PHONY : src/slicing.cpp.o
+
+src/slicing.i: src/slicing.cpp.i
+.PHONY : src/slicing.i
+
+# target to preprocess a source file
+src/slicing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slicing.dir/build.make CMakeFiles/slicing.dir/src/slicing.cpp.i
+.PHONY : src/slicing.cpp.i
+
+src/slicing.s: src/slicing.cpp.s
+.PHONY : src/slicing.s
+
+# target to generate assembly for a file
+src/slicing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slicing.dir/build.make CMakeFiles/slicing.dir/src/slicing.cpp.s
+.PHONY : src/slicing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... pcl_sampling_uninstall"
 	@echo "... uninstall"
 	@echo "... pcl_sampling"
+	@echo "... slicing"
 	@echo "... src/pcl_sampling.o"
 	@echo "... src/pcl_sampling.i"
 	@echo "... src/pcl_sampling.s"
+	@echo "... src/slicing.o"
+	@echo "... src/slicing.i"
+	@echo "... src/slicing.s"
 .PHONY : help
 
 

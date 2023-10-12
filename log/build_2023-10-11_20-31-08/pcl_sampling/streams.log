@@ -1,0 +1,17 @@
+[0.131s] Invoking command in '/home/neha/VBM/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/neha/VBM/vbm_project/build/pcl_sampling -- -j20 -l20
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target slicing[0m
+[0.169s] [ 50%] Built target pcl_sampling
+[0.173s] [ 75%] [32mBuilding CXX object CMakeFiles/slicing.dir/src/slicing.cpp.o[0m
+[2.473s] [01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[2.473s] [01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:31:9:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::size_t pcl::PointCloud<PointT>::size() const [with PointT = pcl::PointXYZ; std::size_t = long unsigned int][m[K’
+[2.473s]    31 |     [01;31m[Kcout<<cloud->size[m[K;
+[2.473s]       |     [01;31m[K~~~~^~~~~~~~~~~~~[m[K
+[2.473s] In file included from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:44[m[K,
+[2.473s]                  from [01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:1[m[K:
+[2.473s] [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:443:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.473s]   443 |       inline std::size_t [01;36m[Ksize[m[K () const { return points.size (); }
+[2.473s]       |                          [01;36m[K^~~~[m[K
+[2.853s] gmake[2]: *** [CMakeFiles/slicing.dir/build.make:76: CMakeFiles/slicing.dir/src/slicing.cpp.o] Error 1
+[2.853s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slicing.dir/all] Error 2
+[2.853s] gmake: *** [Makefile:146: all] Error 2
+[2.855s] Invoked command in '/home/neha/VBM/vbm_project/build/pcl_sampling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/neha/VBM/vbm_project/build/pcl_sampling -- -j20 -l20

@@ -1,0 +1,12 @@
+[01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:31:9:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::size_t pcl::PointCloud<PointT>::size() const [with PointT = pcl::PointXYZ; std::size_t = long unsigned int][m[K’
+   31 |     [01;31m[Kcout<<cloud->size[m[K;
+      |     [01;31m[K~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:44[m[K,
+                 from [01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:443:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  443 |       inline std::size_t [01;36m[Ksize[m[K () const { return points.size (); }
+      |                          [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/slicing.dir/build.make:76: CMakeFiles/slicing.dir/src/slicing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slicing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

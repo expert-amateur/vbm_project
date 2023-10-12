@@ -8,18 +8,25 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(PCL REQUIRED)
+find_package(OPENCV REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
 add_executable (pcl_sampling src/pcl_sampling.cpp)
 target_link_libraries (pcl_sampling ${PCL_LIBRARIES})
 
-install(TARGETS pcl_sampling
+add_executable (slicing src/slicing.cpp)
+target_link_libraries (slicing ${PCL_LIBRARIES})
+
+install(TARGETS pcl_sampling slicing
         DESTINATION lib/${PROJECT_NAME})
+        
+
 
 
 if(BUILD_TESTING)

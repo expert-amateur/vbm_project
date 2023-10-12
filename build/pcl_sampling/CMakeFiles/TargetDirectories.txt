@@ -1,6 +1,7 @@
 /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/uninstall.dir
 /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/pcl_sampling_uninstall.dir
 /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/pcl_sampling.dir
+/home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/slicing.dir
 /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/test.dir
 /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/edit_cache.dir
 /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/rebuild_cache.dir

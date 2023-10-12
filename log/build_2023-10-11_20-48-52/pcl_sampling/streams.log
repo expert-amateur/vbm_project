@@ -1,0 +1,25 @@
+[0.126s] Invoking command in '/home/neha/VBM/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/neha/VBM/vbm_project/build/pcl_sampling -- -j20 -l20
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target slicing[0m
+[0.165s] [ 50%] Built target pcl_sampling
+[0.169s] [100%] Built target slicing
+[0.176s] Invoked command in '/home/neha/VBM/vbm_project/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/neha/VBM/vbm_project/build/pcl_sampling -- -j20 -l20
+[0.208s] Invoking command in '/home/neha/VBM/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/neha/VBM/vbm_project/build/pcl_sampling
+[0.213s] -- Install configuration: ""
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/lib/pcl_sampling/slicing
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.sh
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.dsv
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.bash
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.sh
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.zsh
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.dsv
+[0.213s] -- Installing: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/package.dsv
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake
+[0.213s] -- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/package.xml
+[0.214s] Invoked command in '/home/neha/VBM/vbm_project/build/pcl_sampling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --install /home/neha/VBM/vbm_project/build/pcl_sampling

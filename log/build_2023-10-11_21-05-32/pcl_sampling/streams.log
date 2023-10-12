@@ -1,0 +1,58 @@
+[0.117s] Invoking command in '/home/neha/VBM/vbm_project/build/pcl_sampling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/neha/VBM/vbm_project/build/pcl_sampling -- -j20 -l20
+[0.134s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.236s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.266s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.450s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.453s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.453s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.543s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.546s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.549s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.631s] -- Found Qhull version 8.0.2
+[0.720s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.812s] -- looking for PCL_COMMON
+[0.813s] -- looking for PCL_KDTREE
+[0.813s] -- looking for PCL_OCTREE
+[0.813s] -- looking for PCL_SEARCH
+[0.813s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.813s] -- looking for PCL_FILTERS
+[0.813s] -- looking for PCL_2D
+[0.814s] -- looking for PCL_GEOMETRY
+[0.814s] -- looking for PCL_IO
+[0.814s] -- looking for PCL_FEATURES
+[0.814s] -- looking for PCL_ML
+[0.814s] -- looking for PCL_SEGMENTATION
+[0.815s] -- looking for PCL_VISUALIZATION
+[0.815s] -- looking for PCL_SURFACE
+[0.815s] -- looking for PCL_REGISTRATION
+[0.815s] -- looking for PCL_KEYPOINTS
+[0.815s] -- looking for PCL_TRACKING
+[0.816s] -- looking for PCL_RECOGNITION
+[0.816s] -- looking for PCL_STEREO
+[0.816s] -- looking for PCL_APPS
+[0.817s] -- looking for PCL_IN_HAND_SCANNER
+[0.817s] -- looking for PCL_MODELER
+[0.817s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.817s] -- looking for PCL_OUTOFCORE
+[0.817s] -- looking for PCL_PEOPLE
+[0.829s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.829s]   By not providing "FindOPENCV.cmake" in CMAKE_MODULE_PATH this project has
+[0.829s]   asked CMake to find a package configuration file provided by "OPENCV", but
+[0.829s]   CMake did not find one.
+[0.829s] 
+[0.830s]   Could not find a package configuration file provided by "OPENCV" with any
+[0.830s]   of the following names:
+[0.830s] 
+[0.830s]     OPENCVConfig.cmake
+[0.830s]     opencv-config.cmake
+[0.830s] 
+[0.830s]   Add the installation prefix of "OPENCV" to CMAKE_PREFIX_PATH or set
+[0.830s]   "OPENCV_DIR" to a directory containing one of the above files.  If "OPENCV"
+[0.830s]   provides a separate development package or SDK, be sure it has been
+[0.830s]   installed.
+[0.830s] 
+[0.830s] [0m
+[0.830s] -- Configuring incomplete, errors occurred!
+[0.830s] See also "/home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/CMakeOutput.log".
+[0.836s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.839s] Invoked command in '/home/neha/VBM/vbm_project/build/pcl_sampling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neha/ros2_ws/install/point_cloud:/home/neha/ros2_ws/install/opencv_test_py:/home/neha/voidwalking/ros2_ws/install/waypoints:/opt/ros/humble /usr/bin/cmake --build /home/neha/VBM/vbm_project/build/pcl_sampling -- -j20 -l20

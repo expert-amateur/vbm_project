@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/neha/VBM/vbm_project/build/pcl_sampling
 
 # The main recursive "all" target.
 all: CMakeFiles/pcl_sampling.dir/all
+all: CMakeFiles/slicing.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/pcl_sampling_uninstall.dir/clean
 clean: CMakeFiles/pcl_sampling.dir/clean
+clean: CMakeFiles/slicing.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ pcl_sampling: CMakeFiles/pcl_sampling.dir/rule
 CMakeFiles/pcl_sampling.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pcl_sampling.dir/build.make CMakeFiles/pcl_sampling.dir/clean
 .PHONY : CMakeFiles/pcl_sampling.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/slicing.dir
+
+# All Build rule for target.
+CMakeFiles/slicing.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slicing.dir/build.make CMakeFiles/slicing.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slicing.dir/build.make CMakeFiles/slicing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles --progress-num=3,4 "Built target slicing"
+.PHONY : CMakeFiles/slicing.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/slicing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/slicing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles 0
+.PHONY : CMakeFiles/slicing.dir/rule
+
+# Convenience name for target.
+slicing: CMakeFiles/slicing.dir/rule
+.PHONY : slicing
+
+# clean rule for target.
+CMakeFiles/slicing.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slicing.dir/build.make CMakeFiles/slicing.dir/clean
+.PHONY : CMakeFiles/slicing.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

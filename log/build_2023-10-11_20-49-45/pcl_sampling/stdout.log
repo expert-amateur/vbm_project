@@ -1,0 +1,22 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/slicing.dir/src/slicing.cpp.o[0m
+[ 75%] Built target pcl_sampling
+[100%] [32m[1mLinking CXX executable slicing[0m
+[100%] Built target slicing
+-- Install configuration: ""
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling
+-- Installing: /home/neha/VBM/vbm_project/install/pcl_sampling/lib/pcl_sampling/slicing
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.sh
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.dsv
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.bash
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.sh
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.zsh
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.dsv
+-- Installing: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/package.dsv
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake
+-- Up-to-date: /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/package.xml

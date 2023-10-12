@@ -1,4 +1,5 @@
 /home/neha/VBM/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling
+/home/neha/VBM/vbm_project/install/pcl_sampling/lib/pcl_sampling/slicing
 /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling
 /home/neha/VBM/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling
 /home/neha/VBM/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh

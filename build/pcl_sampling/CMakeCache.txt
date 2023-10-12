@@ -370,6 +370,9 @@ MPI_C_LINK_FLAGS:STRING=-L/usr/lib/x86_64-linux-gnu/openmpi/lib
 //Location of the mpi library for MPI
 MPI_mpi_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libmpi.so
 
+//The directory containing a CMake configuration file for OPENCV.
+OPENCV_DIR:PATH=OPENCV_DIR-NOTFOUND
+
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
 
@@ -417,6 +420,9 @@ OPENNI_INCLUDE_DIR:PATH=/usr/include/ni
 
 //Path to a library.
 OPENNI_LIBRARY:FILEPATH=/usr/lib/libOpenNI.so
+
+//The directory containing a CMake configuration file for OPEN_CV.
+OPEN_CV_DIR:PATH=OPEN_CV_DIR-NOTFOUND
 
 //path to 2d headers
 PCL_2D_INCLUDE_DIR:PATH=/usr/include/pcl-1.12

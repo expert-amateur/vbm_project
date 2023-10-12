@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/slicing.dir/src/slicing.cpp.o: in function `main':
+slicing.cpp:(.text+0x7f8): undefined reference to `cv::convexHull(cv::_InputArray const&, cv::_OutputArray const&, bool, bool)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/slicing.dir/build.make:179: slicing] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slicing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
