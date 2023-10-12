@@ -1,15 +1,15 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('object.jpeg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('object.png', cv2.IMREAD_GRAYSCALE)
 
 #Blur
-blurred = cv2.GaussianBlur(image, (17, 17), 0)
+blurred = cv2.GaussianBlur(image, (25, 25), 0)
 cv2.imshow('Blured Edges', blurred)
 cv2.waitKey(0)
 
 # Edges
-edges = cv2.Canny(blurred, 100, 200)
+edges = cv2.Canny(blurred, 90, 130)
 cv2.imshow('Detected Edges', edges)
 cv2.waitKey(0)
 
@@ -61,16 +61,15 @@ print(closest_point[1])
 cv2.imshow('Closest point', color_image)
 cv2.waitKey(0)
 
-if inside_object:
-    pass 
-    #something here 
-else: 
-    y_coords, x_coords = np.where(edges == 255)  # white points on the image
-    matching_ys = y_coords[x_coords == closest_point[0]]
-    if len(matching_ys) > 0:
-        closest_y = matching_ys[0]
-        closest_point_2 = (closest_point[0], closest_y)
+
+y_coords, x_coords = np.where(edges == 255)  # white points on the image
+matching_ys = y_coords[(x_coords == closest_point[0]) & (y_coords != closest_point[1]) & (abs(y_coords-closest_point[1]) > 1)]
+if len(matching_ys) > 0:
+    closest_y = min(matching_ys, key=lambda y: abs(y - cy))
+    closest_point_2 = (closest_point[0], closest_y)
 
     cv2.circle(color_image, closest_point_2, 5, (255, 0, 0), -1)
     cv2.imshow('Closest point 2', color_image)
     cv2.waitKey(0)
+
+
