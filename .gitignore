@@ -4,8 +4,6 @@
 # ROS logs
 /log/*
 
-build
-install
 
 # Numpy files
 *.npy
