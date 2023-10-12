@@ -1,5 +1,5 @@
 CMakeFiles/slicing.dir/src/slicing.cpp.o: \
- /home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp \
+ /home/expert_amateur/vbm_stuff/vbm_project/src/pcl_sampling/src/slicing.cpp \
  /usr/include/stdc-predef.h /usr/include/pcl-1.12/pcl/io/pcd_io.h \
  /usr/include/pcl-1.12/pcl/memory.h \
  /usr/include/pcl-1.12/pcl/type_traits.h \

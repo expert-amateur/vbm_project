@@ -1,9 +1,0 @@
-[0m** WARNING ** io features related to pcap will be disabled[0m
-[01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
-[01m[K/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp:36:10:[m[K [01;31m[Kerror: [m[K‘[01m[KgetMinMax3D[m[K’ is not a member of ‘[01m[Kpcl[m[K’
-   36 |     pcl::[01;31m[KgetMinMax3D[m[K(*cloud, minPt, maxPt);
-      |          [01;31m[K^~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/slicing.dir/build.make:76: CMakeFiles/slicing.dir/src/slicing.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slicing.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

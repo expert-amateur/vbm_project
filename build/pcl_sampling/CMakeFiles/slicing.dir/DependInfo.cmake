@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/neha/VBM/vbm_project/src/pcl_sampling/src/slicing.cpp" "CMakeFiles/slicing.dir/src/slicing.cpp.o" "gcc" "CMakeFiles/slicing.dir/src/slicing.cpp.o.d"
+  "/home/expert_amateur/vbm_stuff/vbm_project/src/pcl_sampling/src/slicing.cpp" "CMakeFiles/slicing.dir/src/slicing.cpp.o" "gcc" "CMakeFiles/slicing.dir/src/slicing.cpp.o.d"
   )
 
 # Targets to which this target links.

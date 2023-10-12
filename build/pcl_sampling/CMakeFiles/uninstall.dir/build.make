@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neha/VBM/vbm_project/src/pcl_sampling
+CMAKE_SOURCE_DIR = /home/expert_amateur/vbm_stuff/vbm_project/src/pcl_sampling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neha/VBM/vbm_project/build/pcl_sampling
+CMAKE_BINARY_DIR = /home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/neha/VBM/vbm_project/build/pcl_sampling && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neha/VBM/vbm_project/src/pcl_sampling /home/neha/VBM/vbm_project/src/pcl_sampling /home/neha/VBM/vbm_project/build/pcl_sampling /home/neha/VBM/vbm_project/build/pcl_sampling /home/neha/VBM/vbm_project/build/pcl_sampling/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/expert_amateur/vbm_stuff/vbm_project/src/pcl_sampling /home/expert_amateur/vbm_stuff/vbm_project/src/pcl_sampling /home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling /home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling /home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

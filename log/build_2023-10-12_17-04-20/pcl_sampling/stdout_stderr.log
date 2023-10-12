@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/slicing.dir/src/slicing.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable slicing[0m
+[100%] [32m[1mLinking CXX executable pcl_sampling[0m
+[100%] Built target slicing
+[100%] Built target pcl_sampling
+-- Install configuration: ""
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/lib/pcl_sampling/slicing
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.sh
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.dsv
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.bash
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.sh
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.zsh
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.dsv
+-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/package.dsv
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake
+-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/package.xml

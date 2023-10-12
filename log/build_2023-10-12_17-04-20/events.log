@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000721] (pcl_sampling) JobQueued: {'identifier': 'pcl_sampling', 'dependencies': OrderedDict()}
+[0.000761] (vbm_project_env) JobQueued: {'identifier': 'vbm_project_env', 'dependencies': OrderedDict()}
+[0.000784] (pcl_sampling) JobStarted: {'identifier': 'pcl_sampling'}
+[0.083922] (vbm_project_env) JobStarted: {'identifier': 'vbm_project_env'}
+[0.100123] (-) TimerEvent: {}
+[0.167070] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'cmake'}
+[0.168492] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'build'}
+[0.168534] (pcl_sampling) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling', '--', '-j12', '-l12'], 'cwd': '/home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'expert_amateur'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/expert_amateur'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23617'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'expert_amateur'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'expert_amateur'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/expert_amateur/.cargo/bin:/home/expert_amateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OMEN-Laptop-15-ek0021tx:@/tmp/.ICE-unix/1937,unix/OMEN-Laptop-15-ek0021tx:/tmp/.ICE-unix/1937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb8a4049_b5be_4ebf_b160_b2d87cea196a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SKULC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.309'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble')]), 'shell': False}
+[0.171530] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'cmake'}
+[0.171999] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'build'}
+[0.172286] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env', '--', '-j12', '-l12'], 'cwd': '/home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'expert_amateur'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/expert_amateur'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23617'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'expert_amateur'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'expert_amateur'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/expert_amateur/.cargo/bin:/home/expert_amateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OMEN-Laptop-15-ek0021tx:@/tmp/.ICE-unix/1937,unix/OMEN-Laptop-15-ek0021tx:/tmp/.ICE-unix/1937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb8a4049_b5be_4ebf_b160_b2d87cea196a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SKULC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.309'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble')]), 'shell': False}
+[0.200252] (-) TimerEvent: {}
+[0.202737] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.210412] (pcl_sampling) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slicing.dir/src/slicing.cpp.o\x1b[0m\n'}
+[0.210595] (pcl_sampling) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcl_sampling.dir/src/pcl_sampling.cpp.o\x1b[0m\n'}
+[0.218741] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'install'}
+[0.226414] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env'], 'cwd': '/home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'expert_amateur'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/expert_amateur'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23617'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'expert_amateur'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'expert_amateur'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/expert_amateur/.cargo/bin:/home/expert_amateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OMEN-Laptop-15-ek0021tx:@/tmp/.ICE-unix/1937,unix/OMEN-Laptop-15-ek0021tx:/tmp/.ICE-unix/1937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb8a4049_b5be_4ebf_b160_b2d87cea196a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SKULC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.309'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble')]), 'shell': False}
+[0.233902] (vbm_project_env) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.234183] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/launch\n'}
+[0.234339] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/launch/simulation.launch.py\n'}
+[0.234455] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/worlds\n'}
+[0.234519] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/worlds/simulation.world\n'}
+[0.234579] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/urdf\n'}
+[0.234639] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/urdf/camera.urdf\n'}
+[0.234698] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/ament_index/resource_index/package_run_dependencies/vbm_project_env\n'}
+[0.234757] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/ament_index/resource_index/parent_prefix_path/vbm_project_env\n'}
+[0.234814] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.sh\n'}
+[0.234873] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.dsv\n'}
+[0.234944] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/path.sh\n'}
+[0.235005] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/environment/path.dsv\n'}
+[0.235063] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.bash\n'}
+[0.235120] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.sh\n'}
+[0.235177] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.zsh\n'}
+[0.235238] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/local_setup.dsv\n'}
+[0.235392] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/package.dsv\n'}
+[0.235459] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/ament_index/resource_index/packages/vbm_project_env\n'}
+[0.235521] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig.cmake\n'}
+[0.235583] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig-version.cmake\n'}
+[0.235644] (vbm_project_env) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env/share/vbm_project_env/package.xml\n'}
+[0.236216] (vbm_project_env) CommandEnded: {'returncode': 0}
+[0.300610] (-) TimerEvent: {}
+[0.400996] (-) TimerEvent: {}
+[0.404541] (vbm_project_env) JobEnded: {'identifier': 'vbm_project_env', 'rc': 0}
+[0.501126] (-) TimerEvent: {}
+[0.601399] (-) TimerEvent: {}
+[0.701677] (-) TimerEvent: {}
+[0.801959] (-) TimerEvent: {}
+[0.902265] (-) TimerEvent: {}
+[1.002539] (-) TimerEvent: {}
+[1.102826] (-) TimerEvent: {}
+[1.203141] (-) TimerEvent: {}
+[1.303420] (-) TimerEvent: {}
+[1.403695] (-) TimerEvent: {}
+[1.503965] (-) TimerEvent: {}
+[1.604247] (-) TimerEvent: {}
+[1.704524] (-) TimerEvent: {}
+[1.804815] (-) TimerEvent: {}
+[1.905092] (-) TimerEvent: {}
+[2.005362] (-) TimerEvent: {}
+[2.105645] (-) TimerEvent: {}
+[2.205916] (-) TimerEvent: {}
+[2.306186] (-) TimerEvent: {}
+[2.406475] (-) TimerEvent: {}
+[2.506748] (-) TimerEvent: {}
+[2.607023] (-) TimerEvent: {}
+[2.707297] (-) TimerEvent: {}
+[2.807572] (-) TimerEvent: {}
+[2.907847] (-) TimerEvent: {}
+[3.008119] (-) TimerEvent: {}
+[3.108386] (-) TimerEvent: {}
+[3.208658] (-) TimerEvent: {}
+[3.308934] (-) TimerEvent: {}
+[3.409205] (-) TimerEvent: {}
+[3.509481] (-) TimerEvent: {}
+[3.609762] (-) TimerEvent: {}
+[3.710045] (-) TimerEvent: {}
+[3.810359] (-) TimerEvent: {}
+[3.910676] (-) TimerEvent: {}
+[4.010967] (-) TimerEvent: {}
+[4.111243] (-) TimerEvent: {}
+[4.211525] (-) TimerEvent: {}
+[4.311796] (-) TimerEvent: {}
+[4.412075] (-) TimerEvent: {}
+[4.512329] (-) TimerEvent: {}
+[4.612616] (-) TimerEvent: {}
+[4.712893] (-) TimerEvent: {}
+[4.813169] (-) TimerEvent: {}
+[4.913447] (-) TimerEvent: {}
+[5.013733] (-) TimerEvent: {}
+[5.114007] (-) TimerEvent: {}
+[5.214282] (-) TimerEvent: {}
+[5.314562] (-) TimerEvent: {}
+[5.414840] (-) TimerEvent: {}
+[5.515125] (-) TimerEvent: {}
+[5.615416] (-) TimerEvent: {}
+[5.715760] (-) TimerEvent: {}
+[5.816067] (-) TimerEvent: {}
+[5.916381] (-) TimerEvent: {}
+[6.016692] (-) TimerEvent: {}
+[6.117006] (-) TimerEvent: {}
+[6.217303] (-) TimerEvent: {}
+[6.317600] (-) TimerEvent: {}
+[6.417900] (-) TimerEvent: {}
+[6.518197] (-) TimerEvent: {}
+[6.618497] (-) TimerEvent: {}
+[6.679670] (pcl_sampling) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable slicing\x1b[0m\n'}
+[6.718624] (-) TimerEvent: {}
+[6.818932] (-) TimerEvent: {}
+[6.919211] (-) TimerEvent: {}
+[7.019504] (-) TimerEvent: {}
+[7.119825] (-) TimerEvent: {}
+[7.220151] (-) TimerEvent: {}
+[7.320449] (-) TimerEvent: {}
+[7.420905] (-) TimerEvent: {}
+[7.424407] (pcl_sampling) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcl_sampling\x1b[0m\n'}
+[7.521042] (-) TimerEvent: {}
+[7.621430] (-) TimerEvent: {}
+[7.656185] (pcl_sampling) StdoutLine: {'line': b'[100%] Built target slicing\n'}
+[7.721572] (-) TimerEvent: {}
+[7.821957] (-) TimerEvent: {}
+[7.922397] (-) TimerEvent: {}
+[8.022827] (-) TimerEvent: {}
+[8.123253] (-) TimerEvent: {}
+[8.223687] (-) TimerEvent: {}
+[8.324113] (-) TimerEvent: {}
+[8.424519] (-) TimerEvent: {}
+[8.524965] (-) TimerEvent: {}
+[8.625391] (-) TimerEvent: {}
+[8.725761] (-) TimerEvent: {}
+[8.826161] (-) TimerEvent: {}
+[8.926565] (-) TimerEvent: {}
+[9.026964] (-) TimerEvent: {}
+[9.127364] (-) TimerEvent: {}
+[9.227725] (-) TimerEvent: {}
+[9.328093] (-) TimerEvent: {}
+[9.424930] (pcl_sampling) StdoutLine: {'line': b'[100%] Built target pcl_sampling\n'}
+[9.428196] (-) TimerEvent: {}
+[9.436196] (pcl_sampling) CommandEnded: {'returncode': 0}
+[9.463101] (pcl_sampling) JobProgress: {'identifier': 'pcl_sampling', 'progress': 'install'}
+[9.464155] (pcl_sampling) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling'], 'cwd': '/home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'expert_amateur'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/expert_amateur'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '23617'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'expert_amateur'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'expert_amateur'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/expert_amateur/.cargo/bin:/home/expert_amateur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/OMEN-Laptop-15-ek0021tx:@/tmp/.ICE-unix/1937,unix/OMEN-Laptop-15-ek0021tx:/tmp/.ICE-unix/1937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb8a4049_b5be_4ebf_b160_b2d87cea196a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SKULC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.309'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/expert_amateur/vbm_stuff/vbm_project/build/pcl_sampling'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/expert_amateur/vbm_stuff/vbm_project/install/vbm_project_env:/opt/ros/humble')]), 'shell': False}
+[9.471657] (pcl_sampling) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.471911] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/lib/pcl_sampling/pcl_sampling\n'}
+[9.472762] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/lib/pcl_sampling/slicing\n'}
+[9.473375] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/ament_index/resource_index/package_run_dependencies/pcl_sampling\n'}
+[9.473578] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/ament_index/resource_index/parent_prefix_path/pcl_sampling\n'}
+[9.473761] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.sh\n'}
+[9.473921] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/ament_prefix_path.dsv\n'}
+[9.474074] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.sh\n'}
+[9.474246] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/environment/path.dsv\n'}
+[9.474386] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.bash\n'}
+[9.474545] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.sh\n'}
+[9.474690] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.zsh\n'}
+[9.474852] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/local_setup.dsv\n'}
+[9.475146] (pcl_sampling) StdoutLine: {'line': b'-- Up-to-date: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/package.dsv\n'}
+[9.475276] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/ament_index/resource_index/packages/pcl_sampling\n'}
+[9.475398] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig.cmake\n'}
+[9.475518] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/cmake/pcl_samplingConfig-version.cmake\n'}
+[9.475638] (pcl_sampling) StdoutLine: {'line': b'-- Installing: /home/expert_amateur/vbm_stuff/vbm_project/install/pcl_sampling/share/pcl_sampling/package.xml\n'}
+[9.476436] (pcl_sampling) CommandEnded: {'returncode': 0}
+[9.528375] (-) TimerEvent: {}
+[9.628934] (-) TimerEvent: {}
+[9.655540] (pcl_sampling) JobEnded: {'identifier': 'pcl_sampling', 'rc': 0}
+[9.656195] (-) EventReactorShutdown: {}

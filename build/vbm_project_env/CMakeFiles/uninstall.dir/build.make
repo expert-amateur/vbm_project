@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neha/VBM/vbm_project/src/vbm_project_env
+CMAKE_SOURCE_DIR = /home/expert_amateur/vbm_stuff/vbm_project/src/vbm_project_env
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neha/VBM/vbm_project/build/vbm_project_env
+CMAKE_BINARY_DIR = /home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/neha/VBM/vbm_project/build/vbm_project_env && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neha/VBM/vbm_project/src/vbm_project_env /home/neha/VBM/vbm_project/src/vbm_project_env /home/neha/VBM/vbm_project/build/vbm_project_env /home/neha/VBM/vbm_project/build/vbm_project_env /home/neha/VBM/vbm_project/build/vbm_project_env/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/expert_amateur/vbm_stuff/vbm_project/src/vbm_project_env /home/expert_amateur/vbm_stuff/vbm_project/src/vbm_project_env /home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env /home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env /home/expert_amateur/vbm_stuff/vbm_project/build/vbm_project_env/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
