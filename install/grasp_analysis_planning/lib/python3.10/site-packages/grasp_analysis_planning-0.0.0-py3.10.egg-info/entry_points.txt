@@ -1,0 +1,3 @@
+[console_scripts]
+pcd_image_read = pc_to_png.pc_conversion:main
+

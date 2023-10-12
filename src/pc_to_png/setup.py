@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'pcd_image_read = grasp_analysis_planning.grasp_planning:main'
+        	'pcd_image_read = pc_to_png.pc_conversion:main'
         ],
     },
 )

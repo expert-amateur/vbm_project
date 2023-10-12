@@ -7,11 +7,11 @@ from sensor_msgs.msg import PointCloud2 as pc2
 
 import cv2 as cv
 
-class GraspAnalysisPlanning(Node):
+class PcConversion(Node):
 
     def __init__(self):
 
-        super().__init__('grasp_analysis_planning')
+        super().__init__('pc_conversion')
 
         # self.subscriber = self.create_subscription(PointCloud2, 'pc_data', self.process_image, 10)
         
@@ -19,33 +19,50 @@ class GraspAnalysisPlanning(Node):
 
 
 
-    def process_pcd(self):
-        pcd = o3d.io.read_point_cloud("hammer_flattened.pcd")
+    def process_pcd(self, pcd_path, png_path):
+       # pcd = o3d.io.read_point_cloud("hammer_flattened.pcd")
+        pcd = o3d.io.read_point_cloud(pcd_path)
+
+        # Create a visualization
+        vis = o3d.visualization.Visualizer()
+        vis.create_window()
+
+        # Add the point cloud geometry to the visualizer
+        vis.add_geometry(pcd)
+
+        # Show the visualization interactively
+        vis.run()
+
+        # Capture the visualization as an image
+        vis.capture_screen_image(png_path)
+
+        # Close the visualization window
+        vis.destroy_window()
 
         # Convert PointCloud to numpy array
-        points = np.asarray(pcd.points)
+        # points = np.asarray(pcd.points)
 
-        points -= points.min(axis=0)
-        points /= points.ptp(axis=0)
-        points *= 255.0
-        points = points.astype(np.uint8)
+        # points -= points.min(axis=0)
+        # points /= points.ptp(axis=0)
+        # points *= 255.0
+        # points = points.astype(np.uint8)
 
-        # Determine the size of the image
-        max_x = int(np.max(points[:, 0]))
-        max_y = int(np.max(points[:, 1]))
-        min_x = int(np.min(points[:, 0]))
-        min_y = int(np.min(points[:, 1]))
+        # # Determine the size of the image
+        # max_x = int(np.max(points[:, 0]))
+        # max_y = int(np.max(points[:, 1]))
+        # min_x = int(np.min(points[:, 0]))
+        # min_y = int(np.min(points[:, 1]))
 
-        # Create an image to hold the points
-        image_size = (max_x - min_x + 1, max_y - min_y + 1)
-        image = np.zeros(image_size, dtype=np.uint8)
+        # # Create an image to hold the points
+        # image_size = (max_x - min_x + 1, max_y - min_y + 1)
+        # image = np.zeros(image_size, dtype=np.uint8)
 
-        # Draw points on the image
-        for point in points:
-            x, y = int(point[0] - min_x), int(point[1] - min_y)
-            image[y, x] = 255  # Set the pixel to white
+        # # Draw points on the image
+        # for point in points:
+        #     x, y = int(point[0] - min_x), int(point[1] - min_y)
+        #     image[y, x] = 255  # Set the pixel to white
 
-        cv.imwrite("hammer_image.png", image)
+        # cv.imwrite("hammer_image.png", image)
     
     # def process_image(self, data):
 # 
@@ -83,16 +100,16 @@ def main(args=None):
     rclpy.init(args=args)
 
     # Create the node
-    grasp_analysis_planning = GraspAnalysisPlanning()
+    grasp_analysis_planning = PcConversion()
 
     # Spin the node so the callback function is called.
     # rclpy.spin(grasp_analysis_planning)
 
-    grasp_analysis_planning.process_pcd()
+    PcConversion.process_pcd()
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    grasp_analysis_planning.destroy_node()
+    PcConversion.destroy_node()
 
     # Shutdown the ROS client library for Python
     rclpy.shutdown()
